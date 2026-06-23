@@ -1,8 +1,8 @@
 """
-微信测试号推送模块 v5
-- 20条新闻 → 1条模板消息（带 url 参数，整条消息可点击）
-- 点消息 → 打开浏览器 → 精美的 HTML 过渡页
-- HTML 页面上每条标题都是可点击链接，直达原文
+微信测试号推送模块 v6 — 简洁版
+- 20条新闻 → 1个 HTML 页面，托管在 GitHub Pages
+- 微信只推1条模板消息，包含top 5预览 + GitHub Pages链接
+- 用户点击模板消息 → 打开 GitHub Pages → 看到完整20条新闻
 """
 import json, time, re, requests
 from typing import List, Dict
@@ -11,13 +11,13 @@ from src.config import WECHAT_APPID, WECHAT_APPSECRET, WECHAT_OPENID
 
 _access_token_cache = {"token": "", "expires_at": 0}
 
-HTML_URL = "https://raw.githubusercontent.com/Yui1114520/daysnews/main/news.html"
+# GitHub Pages URL — change this to your actual pages URL
+GITHUB_PAGES_URL = "https://yui1114520.github.io/news-daily/"
 
 REGION_FLAG = {
     "中东与北非": "🕌", "拉美与加勒比": "🌎", "中亚与高加索": "🏔️",
     "东亚与太平洋": "🌏", "撒哈拉以南非洲": "🌍", "东欧": "🏰",
     "西欧与南欧": "🇪🇺", "南亚与东南亚": "🌴", "北美": "🇺🇸",
-    "西欧": "🇪🇺", "东亚": "🌏", "南亚": "🌴", "拉美": "🌎",
 }
 
 _EN_ZH = {
@@ -80,21 +80,8 @@ def _get_access_token() -> str:
     return ""
 
 
-def _build_k1_k2(news_list: List[Dict]) -> str:
-    """紧凑列表：序号.🔥标题"""
-    lines = []
-    for i, n in enumerate(news_list, 1):
-        s = n.get("hotness_score", 0)
-        flag = REGION_FLAG.get((n.get("regions") or ["?"])[0], "📰")
-        t = n.get("summary_cn", "")[:45]
-        heat = "🔥" if s >= 70 else ("🔶" if s >= 55 else "📌")
-        lines.append(f"{i:2d}.{heat}{flag}{t}")
-    result = "\n".join(lines)
-    return result[:797] + "..." if len(result) > 800 else result
-
-
 def push_news(news_list: List[Dict], session_label: str = "noon") -> bool:
-    """推送 1 条可点击模板消息（url → HTML 过渡页 → 20条可点标题）"""
+    """发1条模板消息，包含 top5 预览 + GitHub Pages 链接，点消息打开网页。"""
     if not news_list:
         print("WARN: empty news list")
         return False
@@ -106,7 +93,7 @@ def push_news(news_list: List[Dict], session_label: str = "noon") -> bool:
     if not token:
         return False
 
-    label_map = {"morning": "☀️ 晨间速递", "noon": "🌤️ 午间速递", "evening": "🌙 晚间速递"}
+    label_map = {"morning": "🌅 晨间速递", "noon": "🌤️ 午间速递", "evening": "🌙 晚间速递"}
     push_name = label_map.get(session_label, "📡 国际新闻速递")
 
     now_beijing = datetime.now(timezone.utc) + timedelta(hours=8)
@@ -114,7 +101,7 @@ def push_news(news_list: List[Dict], session_label: str = "noon") -> bool:
     h = now_beijing.hour
     next_push = "明天 06:00" if h >= 20 else ("今天 20:00" if h >= 12 else "今天 12:00")
 
-    # Translate
+    # Translate titles
     for n in news_list:
         title = n.get("title", "")
         summary = n.get("summary", "")
@@ -136,18 +123,58 @@ def push_news(news_list: List[Dict], session_label: str = "noon") -> bool:
     min_s = min(scores) if scores else 0
     max_s = max(scores) if scores else 0
 
-    keyword1 = _build_k1_k2(news_list[:10])
-    keyword2 = _build_k1_k2(news_list[10:20])
-    keyword3 = f"🌐 区域{len(region_set)}/9 领域{len(domain_set)}/10 | 🔥{min_s:.0f}-{max_s:.0f} 均{avg_s:.0f}"
-    first = f"{push_name} | 📅 {date_str} | 共{len(news_list)}条 | 👆点击查看详情"
+    # ── first: header ──
+    first = f"{push_name} | 📅 {date_str} | 共{len(news_list)}条"
 
-    remark = f"🔗 点击本条消息，打开网页查看全部20条新闻\n每条标题可点击跳转原文\n⏰ 下次推送: {next_push}"
+    # ── keyword1: top 8 headlines preview ──
+    k1_lines = []
+    for i, n in enumerate(news_list[:8], 1):
+        s = n.get("hotness_score", 0)
+        flag = REGION_FLAG.get((n.get("regions") or ["?"])[0], "📰")
+        t = n.get("summary_cn", "")[:40]
+        heat = "🔥" if s >= 70 else ("🔶" if s >= 55 else "📌")
+        k1_lines.append(f"{i:2d}.{heat}{flag}{t}")
+    keyword1 = "\n".join(k1_lines)
+
+    # ── keyword2: headlines 9-16 ──
+    k2_lines = []
+    for i, n in enumerate(news_list[8:16], 9):
+        s = n.get("hotness_score", 0)
+        flag = REGION_FLAG.get((n.get("regions") or ["?"])[0], "📰")
+        t = n.get("summary_cn", "")[:40]
+        heat = "🔥" if s >= 70 else ("🔶" if s >= 55 else "📌")
+        k2_lines.append(f"{i:2d}.{heat}{flag}{t}")
+    keyword2 = "\n".join(k2_lines)
+
+    # ── keyword3: headlines 17-20 + more ──
+    more = len(news_list) - 16 if len(news_list) > 16 else 0
+    k3_lines = []
+    for i, n in enumerate(news_list[16:20], 17):
+        flag = REGION_FLAG.get((n.get("regions") or ["?"])[0], "📰")
+        t = n.get("summary_cn", "")[:40]
+        k3_lines.append(f"{i:2d}.{flag}{t}")
+    if more > 0:
+        k3_lines.append(f"... 还有 {more} 条")
+    keyword3 = "\n".join(k3_lines)
+
+    # ── remark: stats + CTA ──
+    remark = (
+        f"━━━━━━━━━━━━━━━━\n"
+        f"📊 区域{len(region_set)}/9 领域{len(domain_set)}/10\n"
+        f"🔥 热度 {min_s:.0f}-{max_s:.0f} 均{avg_s:.0f}\n"
+        f"━━━━━━━━━━━━━━━━\n"
+        f"👆 点击上方卡片\n"
+        f"📱 查看完整20条新闻\n"
+        f"🏷️ 10大区域 · 10大领域\n"
+        f"━━━━━━━━━━━━━━━━\n"
+        f"⏰ 下次推送: {next_push}"
+    )
 
     url = f"https://api.weixin.qq.com/cgi-bin/message/template/send?access_token={token}"
     payload = {
         "touser": WECHAT_OPENID,
         "template_id": "bxtS2g3YWB-RdZxmvZ2aHNYXKVkDGRArxxwTgA2uJjw",
-        "url": HTML_URL,   # <-- 关键！整条消息可点，跳转到 HTML 页面
+        "url": GITHUB_PAGES_URL,
         "data": {
             "first":    {"value": first,    "color": "#ff6b35"},
             "keyword1": {"value": keyword1, "color": "#ff6b35"},
@@ -157,7 +184,7 @@ def push_news(news_list: List[Dict], session_label: str = "noon") -> bool:
         }
     }
 
-    print(f"\nPushing 1 template msg (url={HTML_URL[:40]}...)...")
+    print(f"\nPushing 1 template msg → {GITHUB_PAGES_URL}...")
     try:
         resp = requests.post(url, json=payload, timeout=20)
         data = resp.json()
@@ -173,7 +200,7 @@ def push_news(news_list: List[Dict], session_label: str = "noon") -> bool:
 
 
 def push_test_message() -> bool:
-    """发送测试消息"""
+    """Send a test message."""
     if not WECHAT_APPID or not WECHAT_APPSECRET or not WECHAT_OPENID:
         print("FAIL: no WeChat config")
         return False
@@ -184,13 +211,13 @@ def push_test_message() -> bool:
     payload = {
         "touser": WECHAT_OPENID,
         "template_id": "bxtS2g3YWB-RdZxmvZ2aHNYXKVkDGRArxxwTgA2uJjw",
-        "url": HTML_URL,
+        "url": GITHUB_PAGES_URL,
         "data": {
             "first":    {"value": "🧪 国际新闻推送系统 - 测试", "color": "#ff6b35"},
-            "keyword1": {"value": "✅ 推送通道配置成功！点击本条消息查看完整内容", "color": "#ff6b35"},
-            "keyword2": {"value": "每天6:00/12:00/20:00 自动推送20条国际热点新闻\n覆盖9大区域+10大领域+五维热度评分", "color": "#333333"},
-            "keyword3": {"value": "🌍 全球覆盖 | 📊 AI评分 | 📰 多源聚合", "color": "#888888"},
-            "remark":   {"value": "👆 点击查看完整新闻列表\n⏰ 每天三档自动推送", "color": "#666666"},
+            "keyword1": {"value": "✅ 推送通道配置成功！\n👆 点击本条消息查看完整网页", "color": "#ff6b35"},
+            "keyword2": {"value": "每天6:00/12:00/20:00 自动推送20条\n覆盖10大区域+10大领域\n五维热度AI评分系统", "color": "#333333"},
+            "keyword3": {"value": "📱 20条新闻 → 精美网页 → 任意点击", "color": "#888888"},
+            "remark":   {"value": "👆 点击查看GitHub Pages完整页面\n⏰ 每天三档自动推送", "color": "#666666"},
         }
     }
     try:
