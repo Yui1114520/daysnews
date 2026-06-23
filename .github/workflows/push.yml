@@ -101,7 +101,26 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/sent_news.json data/hotness_history.json docs/index.html 2>/dev/null || true
+          git add data/sent_news.json data/hotness_history.json docs/ 2>/dev/null || true
+          # Copy docs to news-daily repo pages target
+          rm -rf /tmp/news-pages 2>/dev/null
+          git clone --depth 1 https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Yui1114520/news-daily.git /tmp/news-pages 2>/dev/null || true
+          if [ -d /tmp/news-pages ]; then
+            cp docs/index.html /tmp/news-pages/docs/index.html 2>/dev/null || true
+            cd /tmp/news-pages
+            git config user.email "actions@github.com"
+            git config user.name "Actions Bot"
+            git add docs/index.html
+            if ! git diff --cached --quiet; then
+              git commit -m "Sync latest news page [skip ci]"
+              git push origin main
+              echo "✅ GitHub Pages 已更新"
+            else
+              echo "📝 Pages 无变化"
+            fi
+            cd -
+          fi
+          cd /home/runner/work/daysnews/daysnews
           if git diff --cached --quiet; then
             echo "📝 无新记录需要提交"
           else
