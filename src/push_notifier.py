@@ -11,8 +11,8 @@ from src.config import WECHAT_APPID, WECHAT_APPSECRET, WECHAT_OPENID
 
 _access_token_cache = {"token": "", "expires_at": 0}
 
-# 使用 jsDelivr CDN（实时拉取最新文件 + 正确的 HTML Content-Type 渲染）
-GITHUB_PAGES_URL = "https://cdn.jsdelivr.net/gh/Yui1114520/daysnews@main/docs/index.html"
+# 使用 GitHub Pages（已启用，从 docs/ 目录发布）
+GITHUB_PAGES_URL = "https://yui1114520.github.io/daysnews/"
 
 REGION_FLAG = {
     "中东与北非": "🕌", "拉美与加勒比": "🌎", "中亚与高加索": "🏔️",
