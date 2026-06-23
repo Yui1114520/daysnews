@@ -1,8 +1,7 @@
 """
-去重引擎
-- 基于标题余弦相似度（英文）
-- 基于URL精确匹配
-- 维护已发送新闻列表
+去重引擎 v3 — 精确匹配优先，避免过度过滤
+- 历史去重：URL 精确匹配 + 标题 slug 精确匹配（不做相似度）
+- 批次内部去重：URL + slug + 相似度（避免同批次内重复）
 """
 import json
 import hashlib
@@ -18,10 +17,8 @@ from src.config import SENT_NEWS_FILE
 def _tokenize(text: str) -> Counter:
     """将文本分词并返回词频 Counter"""
     text = text.lower()
-    # 移除标点
     text = re.sub(r'[^a-z0-9\s]', ' ', text)
     words = text.split()
-    # 去掉短词（<3个字符的通常无意义）
     words = [w for w in words if len(w) >= 3]
     return Counter(words)
 
@@ -30,10 +27,8 @@ def cosine_similarity_counter(c1: Counter, c2: Counter) -> float:
     """基于 Counter 计算余弦相似度"""
     if not c1 or not c2:
         return 0.0
-    # 计算点积
     intersection = set(c1.keys()) & set(c2.keys())
     dot_product = sum(c1[word] * c2[word] for word in intersection)
-    # 计算模长
     norm1 = sum(v ** 2 for v in c1.values()) ** 0.5
     norm2 = sum(v ** 2 for v in c2.values()) ** 0.5
     if norm1 == 0 or norm2 == 0:
@@ -65,9 +60,7 @@ def load_sent_news() -> List[Dict]:
 def save_sent_news(news_list: List[Dict]) -> None:
     """保存已发送新闻列表（只保留最近2天的记录）"""
     cutoff = datetime.now().timestamp() - 2 * 24 * 3600
-    # 清理旧记录
     cleaned = [n for n in news_list if n.get('sent_at', 0) > cutoff]
-    # 只保留最近 1000 条，防止文件过大
     cleaned = cleaned[-1000:]
     with open(SENT_NEWS_FILE, 'w', encoding='utf-8') as f:
         json.dump(cleaned, f, ensure_ascii=False, indent=2)
@@ -90,33 +83,34 @@ def mark_as_sent(news_items: List[Dict]) -> None:
 
 def deduplicate_news(
     candidates: List[Dict],
-    similarity_threshold: float = 0.82,
+    similarity_threshold: float = 0.90,
 ) -> List[Dict]:
     """
-    对候选新闻去重：
-    1. 与已发送历史比对（仅最近24小时内的记录参与相似度比对）
-    2. 候选列表内部去重（按标题相似度 + URL）
-    返回：去重后的新闻列表
+    去重策略 v3：
+      - 历史：仅精确匹配（URL hash + title slug），不做相似度比对
+      - 本次批次内部：精确匹配 + 高阈值相似度（≥0.90），防止同批次重复
+
+    为什么历史不做相似度？
+      RSS 源每次返回的热门新闻标题高度相似（同一事件持续报道），
+      对 100+ 条历史记录做余弦相似度会误杀大量合法新闻。
+      精确匹配已经足够防止"完全相同的文章"重复推送。
     """
     sent = load_sent_news()
-    now_ts = datetime.now().timestamp()
-    recent_cutoff = now_ts - 24 * 3600  # 仅最近24小时参与相似度比对
 
-    # 已发送的 URL hash 集合（全部历史）
+    # ---- 历史精确匹配（全部历史，不限时间）----
     sent_url_hashes: Set[str] = {n.get('url_hash', '') for n in sent}
-    # 已发送的 title slug 集合（全部历史，精确匹配）
     sent_title_slugs: Set[str] = {n.get('title_slug', '') for n in sent}
-    # 仅最近24小时的标题 token（用于相似度比对）
-    recent_title_tokens = [
-        _tokenize(n.get('title', ''))
-        for n in sent
-        if n.get('sent_at', 0) > recent_cutoff
-    ]
-    print(f"  [去重] 历史记录 {len(sent)} 条，其中最近24小时内 {len(recent_title_tokens)} 条参与相似度比对")
+
+    print(f"  [去重] 历史记录 {len(sent)} 条（精确匹配：{len(sent_url_hashes)} URLs, {len(sent_title_slugs)} slugs）")
 
     result: List[Dict] = []
     seen_url_hashes: Set[str] = set()
+    seen_title_slugs: Set[str] = set()
     seen_title_tokens: List[Counter] = []
+
+    filtered_by_url = 0
+    filtered_by_slug = 0
+    filtered_by_similar = 0
 
     for news in candidates:
         url = news.get('url', '')
@@ -125,38 +119,35 @@ def deduplicate_news(
         url_h = _url_hash(url)
         title_s = _title_slug(title)
 
-        # 1. URL 精确去重
+        # 1. URL 精确去重（历史 + 本批）
         if url_h in sent_url_hashes or url_h in seen_url_hashes:
+            filtered_by_url += 1
             continue
 
-        # 2. 标题 slug 去重
-        if title_s in sent_title_slugs:
+        # 2. 标题 slug 精确去重（历史 + 本批）
+        if title_s in sent_title_slugs or title_s in seen_title_slugs:
+            filtered_by_slug += 1
             continue
 
-        # 3. 标题相似度去重（仅与最近24小时的历史记录比对）
+        # 3. 仅本批次内部的相似度去重（高阈值 0.90）
         title_tokens = _tokenize(title)
-        # 与已发送历史（最近24h）比较
         dup = False
-        for hist_tokens in recent_title_tokens:
-            if cosine_similarity_counter(title_tokens, hist_tokens) >= similarity_threshold:
-                dup = True
-                break
-        if dup:
-            continue
-
-        # 与本次已选中的比较
         for seen_tokens in seen_title_tokens:
             if cosine_similarity_counter(title_tokens, seen_tokens) >= similarity_threshold:
                 dup = True
                 break
         if dup:
+            filtered_by_similar += 1
             continue
 
-        # 通过所有去重检查
+        # 通过所有检查
         news['url_hash'] = url_h
         news['title_slug'] = title_s
         result.append(news)
         seen_url_hashes.add(url_h)
+        seen_title_slugs.add(title_s)
         seen_title_tokens.append(title_tokens)
 
+    print(f"  [去重] 过滤: URL重复={filtered_by_url}, 标题重复={filtered_by_slug}, 相似={filtered_by_similar}")
+    print(f"  [去重] 结果: {len(candidates)} → {len(result)} 条")
     return result
