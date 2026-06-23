@@ -105,6 +105,7 @@ jobs:
           # Copy docs to news-daily repo for GitHub Pages
           if [ -f docs/index.html ]; then
             rm -rf /tmp/news-pages 2>/dev/null
+            # Use the NEWSDAILY_PAT secret for cross-repo push access
             git clone --depth 1 https://x-access-token:${{ secrets.NEWSDAILY_PAT }}@github.com/Yui1114520/news-daily.git /tmp/news-pages 2>/dev/null || true
             if [ -d /tmp/news-pages ]; then
               cp docs/index.html /tmp/news-pages/docs/index.html 2>/dev/null || true
@@ -114,7 +115,7 @@ jobs:
               git add docs/index.html
               if ! git diff --cached --quiet; then
                 git commit -m "Sync latest news page [skip ci]"
-                git push origin main
+                git push origin main 2>/dev/null || echo "⚠ Push to news-daily 失败，继续..."
                 echo "✅ GitHub Pages 已更新"
               else
                 echo "📝 Pages 无变化"
