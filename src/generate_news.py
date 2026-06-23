@@ -9,7 +9,9 @@ GitHub Pages 托管目录
   🏷️ 按领域查看（10个领域分栏）
   📊 覆盖统计
 """
-import io, os, sys, re, html, time, json
+import io, os, sys, re, time, json
+# Avoid 'html' module shadowing — rename it
+import html as _html
 
 if sys.platform == "win32":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
@@ -54,10 +56,10 @@ def generate(news_list: list, all_news: list = None, session_label: str = "auto"
     # === HELPERS ===
     def news_card(n, i):
         s = n.get("hotness_score", 0)
-        t = html.escape(n.get("summary_cn", "") or n.get("title", "") or "")
-        d = html.escape((n.get("description", "") or "")[:150])
+        t = _html.escape(n.get("summary_cn", "") or n.get("title", "") or "")
+        d = _html.escape((n.get("description", "") or "")[:150])
         link = n.get("url", "")
-        source = html.escape((n.get("source_name", "") or "")[:20])
+        source = _html.escape((n.get("source_name", "") or "")[:20])
         regions = n.get("regions", []) or []
         flag = REGION_FLAGS.get(regions[0], "📰") if regions else "📰"
         region = regions[0] if regions else ""
@@ -217,6 +219,15 @@ body{{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHe
 </html>'''
 
     return html
+
+
+def generate_and_save(news_list, all_news, session_label, output_dir):
+    """Entry point called from main.py"""
+    html_content = generate(news_list, all_news, session_label)
+    output_path = os.path.join(output_dir, "index.html")
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(html_content)
+    return output_path
 
 
 def main():
