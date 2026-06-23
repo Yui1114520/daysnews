@@ -194,18 +194,33 @@ def run_push(session_label: str = None) -> bool:
     for news in batch:
         generate_article_content(news)
 
-    # ---- 6.5. 生成 HTML 落地页 ----
+    # ---- 6.5. 生成 GitHub Pages 页面 (docs/index.html) ----
     import json as _json
-    _html_data = os.path.join(os.path.dirname(__file__), "..", "data", "_current_batch.json")
+    _batch_path = os.path.join(os.path.dirname(__file__), "..", "data", "_current_batch.json")
+    _all_path = os.path.join(os.path.dirname(__file__), "..", "data", "_all_news.json")
     try:
-        with open(_html_data, "w", encoding="utf-8") as _f:
+        # Translate titles for HTML display
+        from src.push_notifier import _quick_en2zh as _trans
+        for _n in batch:
+            _title = _n.get("title", "")
+            _summary = _n.get("summary", "")
+            if _summary:
+                _n["summary_cn"] = _trans(_summary)
+            elif _title:
+                _n["summary_cn"] = _trans(_title)
+
+        with open(_batch_path, "w", encoding="utf-8") as _f:
             _json.dump(batch, _f, ensure_ascii=False, default=str)
-        from generate_news import generate as _gen_html
-        _news_html = _gen_html(batch, session_label)
-        _html_path = os.path.join(os.path.dirname(__file__), "..", "news.html")
+        with open(_all_path, "w", encoding="utf-8") as _f:
+            _json.dump(all_news, _f, ensure_ascii=False, default=str)
+        from src.generate_news import generate as _gen_html
+        _news_html = _gen_html(batch, all_news, session_label)
+        _docs_dir = os.path.join(os.path.dirname(__file__), "..", "docs")
+        os.makedirs(_docs_dir, exist_ok=True)
+        _html_path = os.path.join(_docs_dir, "index.html")
         with open(_html_path, "w", encoding="utf-8") as _f:
             _f.write(_news_html)
-        print(f"  ✅ HTML 落地页已生成: news.html ({len(_news_html)} 字符)")
+        print(f"  ✅ GitHub Pages 页面已生成: docs/index.html ({len(_news_html)} 字符)")
     except Exception as _e:
         print(f"  ⚠ HTML 生成失败（非致命）: {_e}")
 
