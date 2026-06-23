@@ -59,7 +59,7 @@
 | 序号 | 事项 | 链接 | 获取什么 |
 |------|------|------|---------|
 | 1 | 注册 NewsAPI | [newsapi.org](https://newsapi.org/register) | API Key |
-| 2 | 注册 PushPlus | [pushplus.plus](https://www.pushplus.plus/) | Token（微信扫码）|
+| 2 | 注册 WxPusher | [wxpusher.dingliqc.com](https://wxpusher.dingliqc.com/) | AppToken + UID（微信扫码）|
 | 3 | 注册 GitHub | [github.com](https://github.com/signup) | 代码托管 & 自动运行 |
 
 ---

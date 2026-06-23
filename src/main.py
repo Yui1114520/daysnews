@@ -19,7 +19,8 @@ from datetime import datetime, timezone
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.config import (
-    PUSHPLUS_TOKEN,
+    WXPUSHER_APPTOKEN,
+    WXPUSHER_UID,
     NEWSAPI_KEY,
     PUSH_BATCH_SIZE,
     MIN_REGION_COVERAGE,
@@ -111,9 +112,13 @@ def run_push(session_label: str = None) -> bool:
     print(f"{'='*60}\n")
 
     # ---- 检查配置 ----
-    if not PUSHPLUS_TOKEN:
-        print("❌ 未配置 PUSHPLUS_TOKEN，无法推送")
-        print("   请在 GitHub Secrets 中配置 PUSHPLUS_TOKEN")
+    if not WXPUSHER_APPTOKEN:
+        print("❌ 未配置 WXPUSHER_APPTOKEN，无法推送")
+        print("   请在 GitHub Secrets 中配置 WXPUSHER_APPTOKEN")
+        return False
+    if not WXPUSHER_UID:
+        print("❌ 未配置 WXPUSHER_UID，无法推送")
+        print("   请在 GitHub Secrets 中配置 WXPUSHER_UID")
         return False
 
     # ---- 1. 抓取新闻 ----
@@ -198,9 +203,9 @@ def run_push(session_label: str = None) -> bool:
     if success:
         # 推送成功后标记
         mark_as_sent(batch)
-        print(f"\n🎉 推送完成！{len(batch)} 条新闻已送达微信")
+        print(f"\n🎉 推送完成！{len(batch)} 条新闻已通过 WxPusher 送达微信")
     else:
-        print(f"\n❌ 推送失败，请检查 PushPlus Token")
+        print(f"\n❌ 推送失败，请检查 WxPusher AppToken 和 UID 是否配置正确")
 
     return success
 
@@ -218,10 +223,11 @@ def main():
     # 显示配置
     if args.show_config:
         print("📋 当前配置状态:")
-        print(f"  PUSHPLUS_TOKEN: {'✅ 已配置' if PUSHPLUS_TOKEN else '❌ 未配置'}")
-        print(f"  NEWSAPI_KEY:    {'✅ 已配置' if NEWSAPI_KEY else '❌ 未配置'}")
-        print(f"  推送批次大小:   {PUSH_BATCH_SIZE} 条/次")
-        print(f"  推送时段:       每天 6:00 / 12:00 / 20:00（北京时间）")
+        print(f"  NEWSAPI_KEY:      {'✅ 已配置' if NEWSAPI_KEY else '❌ 未配置'}")
+        print(f"  WXPUSHER_APPTOKEN: {'✅ 已配置' if WXPUSHER_APPTOKEN else '❌ 未配置'}")
+        print(f"  WXPUSHER_UID:      {'✅ 已配置' if WXPUSHER_UID else '❌ 未配置'}")
+        print(f"  推送批次大小:       {PUSH_BATCH_SIZE} 条/次")
+        print(f"  推送时段:           每天 6:00 / 12:00 / 20:00（北京时间）")
         return
 
     # 测试模式

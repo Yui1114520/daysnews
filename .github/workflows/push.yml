@@ -72,7 +72,8 @@ jobs:
       - name: 🚀 执行新闻推送
         env:
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
-          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
+          WXPUSHER_APPTOKEN: ${{ secrets.WXPUSHER_APPTOKEN }}
+          WXPUSHER_UID: ${{ secrets.WXPUSHER_UID }}
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             SESSION="${{ github.event.inputs.session }}"
