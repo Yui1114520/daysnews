@@ -194,27 +194,33 @@ def run_push(session_label: str = None) -> bool:
     for news in batch:
         generate_article_content(news)
 
+    # ---- 6.1 确保刚好 20 条 ----
+    from src.push_notifier import ensure_20_news
+    batch = ensure_20_news(batch, all_news)
+    print(f"  [校验] 批次大小: {len(batch)} 条")
+
     # ---- 6.5. 生成 GitHub Pages 页面 (docs/index.html) ----
     import json as _json
     _batch_path = os.path.join(os.path.dirname(__file__), "..", "data", "_current_batch.json")
     _all_path = os.path.join(os.path.dirname(__file__), "..", "data", "_all_news.json")
     try:
-        # Translate titles for HTML display using the push_notifier helper
-        from src.push_notifier import _quick_en2zh as _trans
+        # 使用 push_notifier 的 translate_to_zh 翻译标题和描述
+        from src.push_notifier import TranslationSources, translate_to_zh
+        _sources = TranslationSources()
         for _n in batch:
             _title = _n.get("title", "")
-            _summary = _n.get("summary", "")
-            if _summary:
-                _n["summary_cn"] = _trans(_summary)
-            elif _title:
-                _n["summary_cn"] = _trans(_title)
+            _desc  = _n.get("description", "")
+            _n["title_cn"] = translate_to_zh(_title, _sources)
+            # 确保每条都有概要
+            if not _n.get("summary") or len(_n.get("summary", "")) < 20:
+                _n["summary"] = translate_to_zh(_desc or _title, _sources)
+            _n["description_cn"] = translate_to_zh(_desc, _sources) if _desc else _n.get("title_cn", "")[:150]
 
         with open(_batch_path, "w", encoding="utf-8") as _f:
             _json.dump(batch, _f, ensure_ascii=False, default=str)
         with open(_all_path, "w", encoding="utf-8") as _f:
             _json.dump(all_news, _f, ensure_ascii=False, default=str)
 
-        # Import generate_news module from src
         import src.generate_news as _gn
         _docs_dir = os.path.join(os.path.dirname(__file__), "..", "docs")
         os.makedirs(_docs_dir, exist_ok=True)
