@@ -11,7 +11,8 @@ from src.config import WECHAT_APPID, WECHAT_APPSECRET, WECHAT_OPENID
 
 _access_token_cache = {"token": "", "expires_at": 0}
 
-GITHUB_PAGES_URL = "https://yui1114520.github.io/news-daily/"
+# 使用 raw.githubusercontent.com 直链（避免 GitHub Pages 缓存不一致）
+GITHUB_PAGES_URL = "https://raw.githubusercontent.com/Yui1114520/daysnews/main/docs/index.html"
 
 REGION_FLAG = {
     "中东与北非": "🕌", "拉美与加勒比": "🌎", "中亚与高加索": "🏔️",
