@@ -21,8 +21,10 @@ DATA_DIR.mkdir(parents=True, exist_ok=True)
 # API Keys（从环境变量读取，GitHub Actions 中配置为 Secrets）
 # ============================================================
 NEWSAPI_KEY = os.environ.get("NEWSAPI_KEY", "")
-WXPUSHER_APPTOKEN = os.environ.get("WXPUSHER_APPTOKEN", "")
-WXPUSHER_UID = os.environ.get("WXPUSHER_UID", "")
+# 微信测试号
+WECHAT_APPID = os.environ.get("WECHAT_APPID", "")
+WECHAT_APPSECRET = os.environ.get("WECHAT_APPSECRET", "")
+WECHAT_OPENID = os.environ.get("WECHAT_OPENID", "")
 
 # ============================================================
 # 新闻源配置
