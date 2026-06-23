@@ -247,7 +247,7 @@ def run_push(session_label: str = None) -> bool:
         mark_as_sent(batch)
         print(f"\n🎉 推送完成！{len(batch)} 条新闻已通过 PushPlus 送达微信")
     else:
-        print(f"\n❌ 推送失败，请检查 PushPlus Token")
+        print(f"\n❌ 推送失败，请检查微信测试号配置（WECHAT_APPID/APPSECRET/OPENID）")
 
     return success
 

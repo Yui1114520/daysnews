@@ -63,12 +63,12 @@ def load_sent_news() -> List[Dict]:
 
 
 def save_sent_news(news_list: List[Dict]) -> None:
-    """保存已发送新闻列表（只保留最近7天的记录）"""
-    cutoff = datetime.now().timestamp() - 7 * 24 * 3600
+    """保存已发送新闻列表（只保留最近2天的记录）"""
+    cutoff = datetime.now().timestamp() - 2 * 24 * 3600
     # 清理旧记录
     cleaned = [n for n in news_list if n.get('sent_at', 0) > cutoff]
-    # 只保留最近 5000 条，防止文件过大
-    cleaned = cleaned[-5000:]
+    # 只保留最近 1000 条，防止文件过大
+    cleaned = cleaned[-1000:]
     with open(SENT_NEWS_FILE, 'w', encoding='utf-8') as f:
         json.dump(cleaned, f, ensure_ascii=False, indent=2)
 
@@ -90,22 +90,29 @@ def mark_as_sent(news_items: List[Dict]) -> None:
 
 def deduplicate_news(
     candidates: List[Dict],
-    similarity_threshold: float = 0.75,
+    similarity_threshold: float = 0.82,
 ) -> List[Dict]:
     """
     对候选新闻去重：
-    1. 与已发送历史比对
+    1. 与已发送历史比对（仅最近24小时内的记录参与相似度比对）
     2. 候选列表内部去重（按标题相似度 + URL）
     返回：去重后的新闻列表
     """
     sent = load_sent_news()
+    now_ts = datetime.now().timestamp()
+    recent_cutoff = now_ts - 24 * 3600  # 仅最近24小时参与相似度比对
 
-    # 已发送的 URL hash 集合
+    # 已发送的 URL hash 集合（全部历史）
     sent_url_hashes: Set[str] = {n.get('url_hash', '') for n in sent}
-    # 已发送的 title slug 集合
+    # 已发送的 title slug 集合（全部历史，精确匹配）
     sent_title_slugs: Set[str] = {n.get('title_slug', '') for n in sent}
-    # 已发送标题的 token 列表（用于相似度计算）
-    sent_title_tokens = [_tokenize(n.get('title', '')) for n in sent]
+    # 仅最近24小时的标题 token（用于相似度比对）
+    recent_title_tokens = [
+        _tokenize(n.get('title', ''))
+        for n in sent
+        if n.get('sent_at', 0) > recent_cutoff
+    ]
+    print(f"  [去重] 历史记录 {len(sent)} 条，其中最近24小时内 {len(recent_title_tokens)} 条参与相似度比对")
 
     result: List[Dict] = []
     seen_url_hashes: Set[str] = set()
@@ -126,11 +133,11 @@ def deduplicate_news(
         if title_s in sent_title_slugs:
             continue
 
-        # 3. 标题相似度去重
+        # 3. 标题相似度去重（仅与最近24小时的历史记录比对）
         title_tokens = _tokenize(title)
-        # 与已发送历史比较
+        # 与已发送历史（最近24h）比较
         dup = False
-        for hist_tokens in sent_title_tokens:
+        for hist_tokens in recent_title_tokens:
             if cosine_similarity_counter(title_tokens, hist_tokens) >= similarity_threshold:
                 dup = True
                 break
