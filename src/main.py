@@ -199,7 +199,7 @@ def run_push(session_label: str = None) -> bool:
     _batch_path = os.path.join(os.path.dirname(__file__), "..", "data", "_current_batch.json")
     _all_path = os.path.join(os.path.dirname(__file__), "..", "data", "_all_news.json")
     try:
-        # Translate titles for HTML display
+        # Translate titles for HTML display using the push_notifier helper
         from src.push_notifier import _quick_en2zh as _trans
         for _n in batch:
             _title = _n.get("title", "")
@@ -213,16 +213,17 @@ def run_push(session_label: str = None) -> bool:
             _json.dump(batch, _f, ensure_ascii=False, default=str)
         with open(_all_path, "w", encoding="utf-8") as _f:
             _json.dump(all_news, _f, ensure_ascii=False, default=str)
-        from src.generate_news import generate as _gen_html
-        _news_html = _gen_html(batch, all_news, session_label)
+
+        # Import generate_news module from src
+        import src.generate_news as _gn
         _docs_dir = os.path.join(os.path.dirname(__file__), "..", "docs")
         os.makedirs(_docs_dir, exist_ok=True)
-        _html_path = os.path.join(_docs_dir, "index.html")
-        with open(_html_path, "w", encoding="utf-8") as _f:
-            _f.write(_news_html)
-        print(f"  ✅ GitHub Pages 页面已生成: docs/index.html ({len(_news_html)} 字符)")
+        _gn.generate_and_save(batch, all_news, session_label, _docs_dir)
+        print(f"  ✅ GitHub Pages 页面已生成: docs/index.html")
     except Exception as _e:
+        import traceback as _tb
         print(f"  ⚠ HTML 生成失败（非致命）: {_e}")
+        _tb.print_exc()
 
     # 显示推送预览
     for i, n in enumerate(batch[:5], 1):
