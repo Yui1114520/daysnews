@@ -194,6 +194,21 @@ def run_push(session_label: str = None) -> bool:
     for news in batch:
         generate_article_content(news)
 
+    # ---- 6.5. 生成 HTML 落地页 ----
+    import json as _json
+    _html_data = os.path.join(os.path.dirname(__file__), "..", "data", "_current_batch.json")
+    try:
+        with open(_html_data, "w", encoding="utf-8") as _f:
+            _json.dump(batch, _f, ensure_ascii=False, default=str)
+        from generate_news import generate as _gen_html
+        _news_html = _gen_html(batch, session_label)
+        _html_path = os.path.join(os.path.dirname(__file__), "..", "news.html")
+        with open(_html_path, "w", encoding="utf-8") as _f:
+            _f.write(_news_html)
+        print(f"  ✅ HTML 落地页已生成: news.html ({len(_news_html)} 字符)")
+    except Exception as _e:
+        print(f"  ⚠ HTML 生成失败（非致命）: {_e}")
+
     # 显示推送预览
     for i, n in enumerate(batch[:5], 1):
         print(f"  {i}. [{n.get('hotness_score',0):.1f}] {n.get('title','')[:60]}...")
