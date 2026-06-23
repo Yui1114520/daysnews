@@ -56,8 +56,9 @@ def generate(news_list: list, all_news: list = None, session_label: str = "auto"
     # === HELPERS ===
     def news_card(n, i):
         s = n.get("hotness_score", 0)
-        # 优先用翻译后的中文标题，其次是 summary_cn，再往后用原始 title
+        # 优先用翻译后的中文标题/摘要，兼容两种字段名
         t = _html.escape(
+            n.get("title_cn", "") or
             n.get("title_cn", "") or
             n.get("summary_cn", "") or
             n.get("title", "") or ""
@@ -65,6 +66,7 @@ def generate(news_list: list, all_news: list = None, session_label: str = "auto"
         # 概要：优先 description_cn > summary > description
         d = _html.escape(
             (n.get("description_cn", "") or
+             n.get("description_cn", "") or
              n.get("summary", "") or
              n.get("description", "") or "")[:200]
         )
