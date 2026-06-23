@@ -56,14 +56,23 @@ def generate(news_list: list, all_news: list = None, session_label: str = "auto"
     # === HELPERS ===
     def news_card(n, i):
         s = n.get("hotness_score", 0)
-        t = _html.escape(n.get("summary_cn", "") or n.get("title", "") or "")
-        d = _html.escape((n.get("description", "") or "")[:150])
+        # 优先用翻译后的中文标题，其次是 summary_cn，再往后用原始 title
+        t = _html.escape(
+            n.get("title_cn", "") or
+            n.get("summary_cn", "") or
+            n.get("title", "") or ""
+        )
+        # 概要：优先 description_cn > summary > description
+        d = _html.escape(
+            (n.get("description_cn", "") or
+             n.get("summary", "") or
+             n.get("description", "") or "")[:200]
+        )
         link = n.get("url", "")
         source = _html.escape((n.get("source_name", "") or "")[:20])
         regions = n.get("regions", []) or []
         flag = REGION_FLAGS.get(regions[0], "📰") if regions else "📰"
         region = regions[0] if regions else ""
-        domains = n.get("domains", []) or []
         heat = "🔥" if s >= 70 else ("🔶" if s >= 55 else "📌")
         return f'''
         <a href="{link}" class="card" target="_blank" rel="noopener">
