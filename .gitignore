@@ -9,10 +9,6 @@ dist/
 .venv/
 venv/
 
-# 数据
-data/sent_news.json
-data/hotness_history.json
-
 # IDE
 .idea/
 .vscode/
