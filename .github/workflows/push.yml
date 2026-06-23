@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 name: 🌍 国际热点新闻推送
 
 # ============================================================
@@ -109,3 +110,116 @@ jobs:
             git push origin main
             echo "✅ 已推送记录已更新"
           fi
+=======
+name: 🌍 国际热点新闻推送
+
+# ============================================================
+# 定时触发（北京时间）
+#   6:00  → UTC 22:00（前一天）
+#   12:00 → UTC 4:00
+#   20:00 → UTC 12:00
+#
+# 注意：GitHub Actions 定时触发有 5-15 分钟延迟，属正常现象
+# ============================================================
+
+on:
+  schedule:
+    # 北京时间 06:00 晨间推送
+    - cron: "0 21 * * *"
+    # 北京时间 12:00 午间推送
+    - cron: "0 3 * * *"
+    # 北京时间 20:00 晚间推送
+    - cron: "0 11 * * *"
+
+  # 允许手动触发（在 GitHub Actions 页面点击 Run workflow）
+  workflow_dispatch:
+    inputs:
+      session:
+        description: "推送时段（不选则自动检测）"
+        type: choice
+        options:
+          - auto
+          - morning
+          - noon
+          - evening
+        default: auto
+        required: false
+
+jobs:
+  push-news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    permissions:
+      # 给工作流写入仓库权限，用于更新 sent_news.json
+      contents: write
+
+    steps:
+      # ---- 1. 检出代码 ----
+      - name: 📥 检出代码
+        uses: actions/checkout@v4
+        with:
+          # 拉取 sent_news.json（避免被覆盖）
+          fetch-depth: 0
+
+      # ---- 2. 拉取已推送记录 ----
+      - name: 🔄 同步已推送记录
+        run: |
+          # 如果远程有 data/sent_news.json，先拉取最新
+          git pull origin main -- depth=1 2>/dev/null || true
+
+      # ---- 3. 安装 Python ----
+      - name: 🐍 安装 Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      # ---- 4. 安装依赖 ----
+      - name: 📦 安装依赖
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # ---- 5. 运行推送程序 ----
+      - name: 🚀 执行新闻推送
+        env:
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+          WECHAT_APPID: ${{ secrets.WECHAT_APPID }}
+          WECHAT_APPSECRET: ${{ secrets.WECHAT_APPSECRET }}
+          WECHAT_OPENID: ${{ secrets.WECHAT_OPENID }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            SESSION="${{ github.event.inputs.session }}"
+            if [ "$SESSION" = "auto" ]; then
+              python -m src.main
+            else
+              python -m src.main --session "$SESSION"
+            fi
+          else
+            # 判断当前是哪个时间段
+            HOUR_UTC=$(date +%H)
+            if [ "$HOUR_UTC" -ge 20 ] || [ "$HOUR_UTC" -lt 2 ]; then
+              python -m src.main --session morning
+            elif [ "$HOUR_UTC" -ge 2 ] && [ "$HOUR_UTC" -lt 9 ]; then
+              python -m src.main --session noon
+            else
+              python -m src.main --session evening
+            fi
+          fi
+
+      # ---- 6. 提交 sent_news.json 更新 ----
+      - name: 💾 提交去重记录
+        if: always()
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/sent_news.json data/hotness_history.json news.html 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "📝 无新记录需要提交"
+          else
+            git commit -m "📝 更新已推送记录 [skip ci]"
+            git push origin main
+            echo "✅ 已推送记录已更新"
+          fi
+>>>>>>> Stashed changes
