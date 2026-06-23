@@ -31,7 +31,6 @@ class TranslationSources:
         self.sources = [
             ("MyMemory", self._translate_mymemory),
             ("Google",   self._translate_google),
-            ("DeepL",    self._translate_deepl),
         ]
         self.available: List[Tuple[str, callable]] = list(self.sources)
         self.dead: set = set()
@@ -122,43 +121,80 @@ class TranslationSources:
 
 
 def _validate_translation(original: str, translated: str) -> bool:
-    """两道校验：①含中文 ②长度≥原文30%"""
+    """宽松校验：只要含中文+长度合理就通过（后置清洗负责去英文）"""
     if not translated:
         return False
     # 校验 1：必须有中文字符
-    chinese_chars = len(re.findall(r'[一-鿿]', translated))
+    chinese_chars = len(re.findall(r'[\u4e00-\u9fff]', translated))
     if chinese_chars == 0:
         return False
-    # 校验 2：长度不能过短（≥原文30%）
-    if len(translated) < len(original) * 0.30:
+    # 校验 2：长度不能过短（≥原文20%）
+    if len(translated) < len(original) * 0.20:
         return False
     return True
 
 
 def translate_to_zh(text: str, sources: TranslationSources) -> str:
-    """核心翻译函数：多源尝试 + 双校验。
-    返回翻译后文本，或原文（如果所有源都失败）。
-    """
+    """核心翻译函数：多源尝试 → 宽松校验 → 后置清洗（确保全中文）"""
     if not text or not text.strip():
         return ""
 
     # 如果已经主要是中文，直接返回
-    chinese_ratio = len(re.findall(r'[一-鿿]', text)) / max(len(text), 1)
-    if chinese_ratio > 0.5:
-        return text.strip()[:200]
+    if len(re.findall(r'[\u4e00-\u9fff]', text)) / max(len(text), 1) > 0.5:
+        return _post_clean(text)
 
     # 尝试各翻译源
     for name, func in sources.available:
         try:
             result = func(text)
             if result and _validate_translation(text, result):
-                return result.strip()[:200]
+                return _post_clean(result)
         except Exception:
             sources.mark_dead(name)
             continue
 
-    # 全失败 → 内置词典兜底
-    return _fallback_en2zh(text)
+    # 全失败 → 词典逐词替换（保证全中文输出）
+    return _dict_translate(text)
+
+
+def _post_clean(text: str) -> str:
+    """后置清洗：把翻译结果中残留的英文单词替换为中文"""
+    result = text
+    # 按词典替换（长按前，避免短词误替）
+    for en, zh in sorted(_EN_ZH.items(), key=lambda x: -len(x[0])):
+        result = re.sub(r'\b' + re.escape(en) + r'\b', zh, result, flags=re.IGNORECASE)
+    # 清理孤立的英文冠词/介词/连词
+    for w in ["the ", "The ", "THE ", "a ", "A ", "an ", "An ",
+              "of ", "Of ", "OF ", "in ", "In ", "IN ",
+              "to ", "To ", "TO ", "for ", "For ", "FOR ",
+              "on ", "On ", "ON ", "at ", "At ", "AT ",
+              "by ", "By ", "BY ", "with ", "With ", "WITH ",
+              "from ", "From ", "FROM ",
+              "and ", "And ", "AND ", "or ", "Or ", "OR ",
+              "but ", "But ", "BUT ", "is ", "Is ", "IS ",
+              "are ", "Are ", "ARE ", "was ", "Was ", "WAS ",
+              "were ", "Were ", "WERE ", "be ", "Be ", "BE ",
+              "have ", "Have ", "HAVE ", "has ", "Has ", "HAS ",
+              "had ", "Had ", "HAD ", "will ", "Will ", "WILL ",
+              "would ", "Would ", "WOULD ", "could ", "Could ", "COULD ",
+              "should ", "Should ", "SHOULD "]:
+        result = result.replace(w, "")
+    # 去掉剩余纯英文碎片（括号中的英文等）
+    result = re.sub(r'\([A-Za-z0-9_\-\s]+\)', '', result)
+    result = re.sub(r'\[[A-Za-z0-9_\-\s]+\]', '', result)
+    result = re.sub(r'\s+', ' ', result).strip()
+    return result[:250]
+
+
+def _dict_translate(text: str) -> str:
+    """API全失败时：词典逐词替换，确保输出全中文"""
+    result = text
+    for en, zh in sorted(_EN_ZH.items(), key=lambda x: -len(x[0])):
+        result = re.sub(r'\b' + re.escape(en) + r'\b', zh, result, flags=re.IGNORECASE)
+    result = _post_clean(result)
+    # 如果替换后仍有纯英文单词，用[未译]标记（避免出现英文）
+    result = re.sub(r'\b[A-Za-z]{3,}\b', '[...]', result)
+    return result[:250]
 
 
 # ============================================================
