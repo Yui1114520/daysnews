@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+
+# 环境
+.env
+.venv/
+venv/
+
+# 数据
+data/sent_news.json
+data/hotness_history.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
