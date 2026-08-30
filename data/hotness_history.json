@@ -1,167 +1,5 @@
 [
   {
-    "title": "Four Years Ago, a Crypto Boss Went Missing. Now His Successor Has.",
-    "raw_scores": {},
-    "final_score": 43.5,
-    "scored_at": 1787459713.611072
-  },
-  {
-    "title": "Gaokao reforms could leave Chinese public vulnerable to pseudo-history, top academic warns",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1787459713.611072
-  },
-  {
-    "title": "‘Could result in injury or death’: Thanedar urges halting ICE’s electric shock glove plan",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1787459713.611072
-  },
-  {
-    "title": "Quake-prone Indonesia’s first nuclear power plant plan stokes safety fears",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1787459713.611072
-  },
-  {
-    "title": "‘You just can’t trust Trump’: Canadian premiers fire back in trade war",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787459713.611072
-  },
-  {
-    "title": "Mexican governor seeks leave again amid backlash after return following US drug charges indictment",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1787459713.611072
-  },
-  {
-    "title": "Hong Kong rules out Wang Fuk Court buy-back extension as 100 owners hesitate",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1787459713.611072
-  },
-  {
-    "title": "In rural Chad, solar kiosks bring healthcare closer",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787459713.611072
-  },
-  {
-    "title": "Chinese robot beats Usain Bolt’s 100m world record at humanoid games",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787459713.611072
-  },
-  {
-    "title": "Are humanoid robots the future? Chinese makers instead highlight practical design",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1787459713.611072
-  },
-  {
-    "title": "Bites to bytes: Thai street food app feeds into hunger for authenticity",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1787459713.611072
-  },
-  {
-    "title": "Tech paradox: fear of being left behind drives China non-programmers to build own AI tools",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1787459713.611072
-  },
-  {
-    "title": "Canada to hit US with retaliatory tariffs as trade war escalates",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787459713.611072
-  },
-  {
-    "title": "Iran security chief threatens neighbors against economic measures, and other Mideast developments",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1787459713.611072
-  },
-  {
-    "title": "'Conveyed our security concerns to US': Israel on Hamas disarmament plan",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1787459713.611072
-  },
-  {
-    "title": "Amid tensions with Hegseth, US Army secy Dan Driscoll to step down by year-end",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1787459713.611072
-  },
-  {
-    "title": "China builds world’s first custom plant immunity system for epidemic response",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1787459713.611072
-  },
-  {
-    "title": "Thousands flee Sudan’s Kordofan fighting for relative safety of El Obeid",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787459713.611072
-  },
-  {
-    "title": "Canada’s Carney refuses to take Trump’s ‘bait’, confronting US in trade war",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1787459713.611072
-  },
-  {
-    "title": "Swedish sword attack victim was 17-year-old girl, police say",
-    "raw_scores": {},
-    "final_score": 43.5,
-    "scored_at": 1787459713.611072
-  },
-  {
-    "title": "Hong Kong can open a lucrative new frontier as Chinese tech IP hub",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1787459713.611072
-  },
-  {
-    "title": "How Opatra’s ‘coercive’ tactics in Hong Kong echo global ‘Dead Sea sales scams’",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1787459713.611072
-  },
-  {
-    "title": "Speculation Over Possible Lawsuit: Gaines predicts TPUSA may sue; talk remains hypothetical",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1787459713.611072
-  },
-  {
-    "title": "Iran war live: Tehran warns neighbours against joining US economic war",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787459713.611072
-  },
-  {
-    "title": "Iran threatens countries that join US ‘economic D-Day’",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787459713.611072
-  },
-  {
-    "title": "Iran warns nearby nations against joining US ‘economic war’ efforts",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787459713.611072
-  },
-  {
-    "title": "Trump shares image calling Hormuz 'new US territory'; Iran says strait 'closed'",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1787459713.611072
-  },
-  {
     "title": "Wartime elections would 'destroy' Ukraine, says Zelensky",
     "raw_scores": {},
     "final_score": 45.0,
@@ -9604,5 +9442,383 @@
     "raw_scores": {},
     "final_score": 28.5,
     "scored_at": 1788047907.727923
+  },
+  {
+    "title": "Delcy Rodriguez says Venezuela ‘retains sovereignty’ despite US oil deal",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "🔴 Iceland rejects restarting EU accession talks in referendum",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "In the 1940s, Nevada’s six-week divorce law turned a 1,627-acre ranch into a refuge for women seeking quick divorces; now it is becoming the state’s 28th park",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Pakistan suspends 8 officials after maternity ward fire kills 14 infants",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Harry Potter: Versailles turns into wizarding school for a day",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Nepal-China flood disaster: What’s the latest toll, how many are missing?",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "‘Stuck’: Canada ends Hong Kong migration pathway, some turn to US and UK",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Nepal: Glacial collapse leaves 3,000 missing",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Manhunt after shooting at Swiss rave kills woman, 22, and injures five",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Gunman kills one at Swiss rave party",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Zambian opposition leader charged with treason",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Long Lines for Gas in Iran Show War and U.S. Blockade Squeezing Supply",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Vuelta: Pogacar’s terrifying crash, serious injuries and abandonment",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Syria sandstorm blankets Homs in eerie orange haze",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Far Right Is Poised to Win in a German State, but Fight Over Power Won’t End There",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "How China’s liquor heartland traded old spirits for new energy",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "An aging population in China inspires a new industry: Adult children for hire",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Trump’s ambassador in Italy conducts ‘Love Boat’ diplomacy on his mega yacht",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "French Presidential campaign heats up",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Trump wants 'Lake America'. Canada puts up a 24-foot sign saying otherwise",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Fridges for humans during heatwaves in Japan",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Netanyahu condemns violence in West Bank",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Canada unveils huge new Lake Ontario sign in snub to Trump",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Niger: Junta says back in control after mutiny",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Aerial video shows devastation in flood-hit Nepal",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "DRC launches Ebola vaccination campaign as outbreak continues to spread",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Russia prepares for ‘massive strikes’ against Ukraine's energy facilities",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Behind the Nepal-China border floods lie bad politics",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Texas WWII veteran’s remarkable century is being celebrated with a heartfelt tribute",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "NASA tests GPS-free navigation using other satellites and space debris as landmarks",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Pogacar to have surgery on broken collarbone after horrific Vuelta crash",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Iceland votes 'No' to reopening EU accession talks, official count confirms",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Iceland on track to reject EU referendum as counting nears end",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "One person killed, five wounded in shooting at rave in Switzerland",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Nepal-Tibet floods: 750 dead, 20,000 deployed as rising rivers hamper rescue ops",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "23,000 bronzes, 14 years, 60 volumes: how China is mapping lost heritage held abroad",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Not a token effort: beer meets artificial intelligence at bar in China’s capital",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Iceland rejects EU-accession talks plan in referendum",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Nepal warns of more possible floods as communities grapple with devastation and death toll rises",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Dozens of soldiers arrested in Niger after attempted mutiny",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "The toxic waste of the Gaza war has reached Israel",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Furore grows as Venezuela defends US oil deal with Trump",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Zimbabwe: At least 27 people dead after minibus and truck collide head on",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Nepal rescuers drill into tunnels in bid to reach trapped workers",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Hong Kong police investigate viral video of dog trapped in running washing machine",
+    "raw_scores": {},
+    "final_score": 33.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "American startup raises $180 million to drill rock over 5km deep to build world's first superhot geothermal plant at 500 °C",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "A Colombian man struggling to build his own home created Lego-like bricks from recycled plastic",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "From doomscrolling to nomophobia: new digital-age conditions reshaping our brains",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "USS Abraham Lincoln sails past Singapore on way home after gruelling Middle East deployment",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Nearly one thousand people swim across Danube in Budapest for first crossing in six years",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Can Southeast Asian artists replicate K-pop’s global success with SEA-pop?",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Hungary's bee population at risk, warns national beekeepers' association",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "‘Identify your real enemy’: Khamenei urges Gulf rulers to unite, defend each other",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Major manhunt underway after woman killed in shooting at Swiss rave",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "China Says 261 Foreigners From 23 Countries Are Missing in Tibet Flood",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "1 killed as shooting erupts at rave party in Switzerland",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Lausanne Grand Slam 2026: Switzerland Celebrates a Historic Judo Day",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "The People of Hirosaki, Japan, Try to Move a Castle by Hand",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Which cities are the most expensive to buy an apartment in Europe?",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Latest news bulletin | August 30th, 2026 – Morning",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Europe’s scorching summer has ‘charged’ the Mediterranean Sea. What weather will September bring?",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "WhatsApp chat used to send cash for crime and extremism",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1788083122.875906
+  },
+  {
+    "title": "Expedia Faces Off With Cuban Families Over Land Seized Decades Ago",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1788083122.875906
   }
 ]
