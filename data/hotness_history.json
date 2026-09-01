@@ -1,731 +1,5 @@
 [
   {
-    "title": "The Pan-American Congress closes with a call for more equal north-south dialogue",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "US set for largest mass visa revocation, targeting up to 200,000 foreigners",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Man detained in Buenos Aires after driving a stolen bus, saying it was his dream",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Israel's Netanyahu says Iran tried to assassinate one of his sons",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Colombia orders deportation of irregular migrants after a decade as the main host country",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "US public support for Iran war falls as Trump approval at record low: Poll",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Iconic Palestinian artist Sliman Mansour passes away at age 79",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "US Supreme Court clears the way for Trump mail voting order in advance of midterms",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Forcing women to drink at business dinners has no place in modern China",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Milei links Lula to the case of the Argentine former adviser detained in Bolivia",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Displaced Palestinians in Gaza face intensifying Israeli strikes",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Iran Pledges to Defy Trump’s Economic Sanctions",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Some 25,000 people are seeking housing in Cali two weeks after Colombia's earthquake",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Zambia shuts down court system",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "What’s behind domestic political pressure on Ukraine’s president?",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Video: Iran reacts to US ‘economic D-Day’ sanctions",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Ceasefire monitoring mission arrives in Democratic Republic of Congo",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Ambush in South Sudan kills peacekeeping troops",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Displaced Palestinian builds mud shelter as tents offer little relief",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "US universities pausing CPT program after new ICE memo: Indian students in a fix",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Saudi Arabia to pump €6 billion into building three theme parks near Paris",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Kenya: Designer turns to traditional clothesmaking methods",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Uganda Pledges 1,200 Troops as Burundi Eyes Gaza Force",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Why August can be a hungry month for honeybees despite summer",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Technology: crowds flock to Beijing for robot games",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Guinea: Conakry residents grapple with aftermath of landfill disaster",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Violence flares in Haiti as gang attack kills 30 people",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "US targets China’s telecoms grip in Venezuela with new sanctions carve-out",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Trump bought shares in Elon Musk’s SpaceX in June, financial disclosure shows",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Guinea: Landfill collapse in Conakry leaves dozens dead",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Man Who Told of a Childhood With Wolves Dies at 80",
-    "raw_scores": {},
-    "final_score": 43.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Ex-Liverpool star Fabinho reunited with Mohamed Salah at Trabzonspor",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Tornado in Aude: at least 26 injured and around 100 homes damaged",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "'Happy birthday wheelchair': Disabled New Jersey woman shocked seeing hurtful message on cake; restaurant says it was a reference for where the cake was to be served",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "US removes Syria from state sponsor of terrorism list",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Meet Edward Kang, 17, who trained AI to screen for autism and ADHD",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Iran faces 'greatest financial offensive ever', says US treasury secretary",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "US Treasury Secretary launches 'Operation Economic Outcast' aimed at isolating Iran",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "In 1998, Justin Trudeau's younger brother was swept away in an avalanche in BC. His body was never found",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Can ‘Argentina’s Texas’ Save the Country’s Economy?",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Mexico ‘optimistic’ on US trade deal after Canada talks collapse",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "In 1908, an Indiana widow began 20-year fight over 120 acres; part of land later became protected",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "UK, France ‘re-announce’ anti-missile technology for Ukraine: ‘None will be online for years’",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "As El Niño Dries Indonesia, Wildfires Intensify",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Saudi Arabia to invest €6 billion in theme parks near Paris, Macron says",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "US sanctions Chinese entities, issues global warning on ‘Economic D-Day’ against Iran",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Diego Maradona’s ‘Hand of God’ football sells for US$3.35 million at US auction",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Prince Harry steps down from African Wildlife Charity Board following human rights abuse probe",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "U.S. withdraws from military exercises with South Korea set for next month",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "What the renewed Black Sea blockade means for Ukraine’s farmers",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "UK PM Burnham vows support for Ukraine despite 'outrageous threats' from Russia",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Outrage in Nepal over rape and murder of three-year-old girl",
-    "raw_scores": {},
-    "final_score": 43.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Colorado land sold for 30 cents an acre later helped create a vast national park",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "🔴 Mideast live: US unveils fresh sanctions to 'sever every economic lifeline' sustaining Iran",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "'Nothing changes yet': Immigration lawyer explains new $103,265 H-1B fee rule is not final; there will be litigation",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "UK to share SCALP missile blueprints with Ukraine as Coalition of the Willing meets in Kyiv",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Michigan couple bought 160-year-old farmhouse for $26K, spent $320K rebuilding it without experience",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Syria and Israel Hold U.S.-Mediated Talks to Try to Ease Tensions",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Mission to verify DRC-M23 ceasefire gets underway in South Kivu",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Mohammed bin Salman in the City of Light: Does West value economic interests over 'Western values'?",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Victims of abuse at youth care home to be compensated by Danish government",
-    "raw_scores": {},
-    "final_score": 36.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Ceasefire verification mission deploys to eastern DR Congo",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Latest news bulletin | August 24th, 2026 – Evening",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Houthis claim strike on Saudi tanker in latest Red Sea escalation",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "UK firm running Portugal's largest solar plant files for insolvency",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Ukraine celebrates Independence Day amid war's latest escalation",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Tensions in the Alps after antisemitic video",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Ukraine’s robot and drone parade offers a glimpse of the future of war",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Ex-Pussy Riot Member Says She Helped the FSB Spy on Kremlin Critics",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Protests erupt in Tunisia after migrant boat sinks",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Putin Signs Order Allowing Government to Seize Critical Infrastructure Following Attacks",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "A Drone Killed Three Ukrainians. It Was Guided Entirely by A.I.",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "From cardboard to cosplay: Kenya’s anime fans turn creativity into culture",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Access to Zambian courts prevented as election petition deadline looms",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Israel warns of 'forceful' response to kites flown from Gaza",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Russia Is Betting on the MC-21 to Reverse Its Aviation Decline. It’s No Silver Bullet.",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "South Africa: Four arrested over murder of boxing champion Zolani Tete",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Sonya Massey's killer Sean Grayson dies in US prison",
-    "raw_scores": {},
-    "final_score": 43.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Russia and Ukraine Release 20 Prisoners of War",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Chad accuses Sudanese army of targeting convoy in Chadian territory",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Iran Cracks Down on One Luxury Left to Its Youth: Coffee Shops",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Some of Russia’s A.I. Drones Are Powered by Nvidia Microcomputers, Ukrainian Officials Say",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Kremlin Says It’s Working to Minimize Impact of Ukrainian Attacks on Russian Grain Exports",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "A Chinese Robot Beat Usain Bolt’s 100-Meter Record. Should We Be Impressed?",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Four arrested over suspected poisoning of elephants in Kenya",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Siberian Wildfires Reach 3.5M Acres Across Krasnoyarsk and Sakha Republic",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Russia's second-biggest online retailer targeted in Ukrainian strikes",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Russian Government Proposes Tax Relief for Wildberries and Sellers After Drone Attacks",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "King of Norway's health has worsened, palace says",
-    "raw_scores": {},
-    "final_score": 43.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Unemployment displaces inflation as Argentines' main concern",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "At Least 3 Killed as Ukrainian Drones Target Ozon Hubs Across Southern Russia",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Almost half the minors recruited by armed groups in 2025 were approached via social media",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Burnham picks Kyiv for his first foreign trip as British prime minister",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Two newly detained men testify in the case over the shooting of the Bolivian lawyer",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Argentina retires the jets that sank two British ships in the 1982 war",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Nearly three million Teslas recalled in China over hidden door handles",
-    "raw_scores": {},
-    "final_score": 43.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "United States enters economic D-Day in confrontation with Iran",
-    "raw_scores": {},
-    "final_score": 32.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Apollo Economist Says AI Affecting Wages More Than Employment",
-    "raw_scores": {},
-    "final_score": 28.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "AG.AL Crowned Esports World Cup 2026 Club Champion After Landmark Competition in Paris",
-    "raw_scores": {},
-    "final_score": 28.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Elche 0-5 Barcelona: Gordon stars as debut as Barça return to LaLiga action",
-    "raw_scores": {},
-    "final_score": 28.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Former OKC Thunder Player Gives Wembanyama A Win Over Nikola Jokic",
-    "raw_scores": {},
-    "final_score": 28.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "US envoy walks back Golan remarks: Trump's policy remains unchanged",
-    "raw_scores": {},
-    "final_score": 32.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "'Killed Nijjar for drug trafficking': Goldy Brar in leaked audio",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "As the Clancy case highlights postpartum psychosis, a mom stricken by it shares her story of hope",
-    "raw_scores": {},
-    "final_score": 28.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Micron CEO is doubling down on a cycle-free future",
-    "raw_scores": {},
-    "final_score": 28.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Aussie athletes continue top form with trio of medals at Diamond League",
-    "raw_scores": {},
-    "final_score": 32.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "95 Photos of New Beloved and Clever Street Art",
-    "raw_scores": {},
-    "final_score": 28.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Jeffries And Kushner Reportedly Met In Private To Discuss Common Ground",
-    "raw_scores": {},
-    "final_score": 28.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "As LA28 Approaches Team USA Women’s Beach Volleyball Pipeline Is Deep",
-    "raw_scores": {},
-    "final_score": 32.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Additional Information on the Ehrmann Family Increasing Its Equity Stake in Artprice by Artmarket as Part of Artprice's \"AI-First\" Transformation",
-    "raw_scores": {},
-    "final_score": 28.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Which foods have become less affordable for New Zealanders?",
-    "raw_scores": {},
-    "final_score": 32.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Is it back? Questions raised about Iran’s ballistic missile capacity being rebuilt",
-    "raw_scores": {},
-    "final_score": 32.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Mundi Mundi Bash still ultimate outback adventure, festival goers say",
-    "raw_scores": {},
-    "final_score": 32.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "U.S. Navy’s post-Iran choice includes 2 stark directions",
-    "raw_scores": {},
-    "final_score": 32.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Mexican governor indicted by the US seeks leave again after contentious return to office",
-    "raw_scores": {},
-    "final_score": 32.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Healthcare AI sandbox points to the next regulatory test: Autonomous medicine",
-    "raw_scores": {},
-    "final_score": 32.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Cryogenic lasers could solve the data bottleneck in next-generation infrared imaging",
-    "raw_scores": {},
-    "final_score": 28.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "UBS raises S&P 500 year-end target to 8,100, citing an earnings reset driven by AI, tech, and broad sector strength",
-    "raw_scores": {},
-    "final_score": 28.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "From $10 cups of coffee to $5 packs of gum: The everyday essentials that inflation is hitting the hardest",
-    "raw_scores": {},
-    "final_score": 28.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Jim Cramer Says Stocks and the Economy Are Telling Two Very Different Stories: ‘Jarring Gulf’",
-    "raw_scores": {},
-    "final_score": 28.5,
-    "scored_at": 1787610666.1479
-  },
-  {
-    "title": "Israel is flirting with the next intifada",
-    "raw_scores": {},
-    "final_score": 32.5,
-    "scored_at": 1787610666.1479
-  },
-  {
     "title": "‘An intrusion’: data centre fights test Southeast Asia’s AI ambitions",
     "raw_scores": {},
     "final_score": 45.0,
@@ -9820,5 +9094,281 @@
     "raw_scores": {},
     "final_score": 42.5,
     "scored_at": 1788202313.05328
+  },
+  {
+    "title": "The laptop, the social media user and the false alarm in Taiwan over a Beijing ‘spy’",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Chinese schools spark controversy over strict hair policy barring non-compliant male students",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Duane “Keffe D” Davis found guilty in Tupac Shakur murder",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "US Treasury’s Bessent calls on Japan to boost yen through interest rate hikes",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Times Square stabbing: 1 killed, another critically injured; suspect shot dead by NYPD",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Five years after Saied’s power grab, Tunisia’s old grievances resurface",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "EU suspends Brazilian meat imports over antibiotic compliance concerns",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Shein shares plunge up to 28% in grey market ahead of Hong Kong debut",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Bullying mayor ousted as Japan’s voters reject political abuse",
+    "raw_scores": {},
+    "final_score": 40.0,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Iran war live: Trump vows to strike Iran ‘hard’ after first clash in month",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Melting Himalayas? Nepal disaster exposes growing risk of glacial flooding",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Glacial flood death toll surpasses 900 in Nepal and Tibet",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Elite Hong Kong schools urged to raise the bar, challenge high-ability students",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "US Army Secretary Daniel Driscoll submits resignation, media reports say",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Woman fatally shot by police after deadly stabbing spree in New York’s Times Square",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "US Army Secretary Dan Driscoll resigns after 18 months on the job, White House says",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "US Supreme Court clears way for Trump to keep building White House ballroom",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Trump praises China for remaining ‘relatively inactive’ during Strait of Hormuz crisis",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Three minors killed in Colombia armed group crackdown",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Russian finance minister, invited by Trump, draws objections at G-20 meeting",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "JERUSALEM DAILY: JOURNALISTS ATTACKED",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Brazil: Flávio Bolsonaro promises 500,000 prison places inspired by the Salvadoran model",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "‘The Nest of Snakes’: Warring Cartels Target Women in Mexico",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "“I gave everything, I have nothing left”: Messi ends twenty years with Argentina",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "White House construction on $400m ballroom can go on, says US Supreme Court",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "US Supreme Court lets Trump’s White House ballroom construction continue",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "'Golden age of America': Trump celebrates as Supreme Court clears $400M White House ballroom",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Lionel Messi’s Retirement From Soccer Sparks Heartbreak Across Argentina",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Poland opens terror probe into fire at factory supplying Ukraine drones",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Arsenal edge past troubled Aston Villa 1-0 as Saka scores only goal",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Putin, Xi reaffirm Russia-China ties amid ‘unpredictable’ world",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Xi, Putin hold talks ahead of Shanghai Cooperation Organization summit",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Argentinian footballer Lionel Messi announces his retirement",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Belgian judge strikes down pre-trial detention appeal for alleged NATO spy",
+    "raw_scores": {},
+    "final_score": 40.0,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Florida bans Flock cameras days after a sheriff's deputy resigns for misusing AI cameras to track ex-girlfriend",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Trump threatens to ‘hit Iran hard’ as strikes resume after month-long lull",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Israel and Greece Reach $3.5 Billion Defense Deal",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Tributes pour in for former French PM Edouard Balladur following his death aged 97",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Kenya airport staff strike delays thousands of passengers",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Summit With Russia, India and Iran Shows Leverage Wars Have Given Xi of China",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "'Keep my wife's name the hell out of your mouth': JD Vance fires back at El-Sayed over comments about Second Lady Usha Vance",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Built in 1743, this 1,050-acre Maryland farm became a War of 1812 battlefield where...",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Naomi Watts to receive Donostia Award at 2026 San Sebastian Film Festival",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "UN panel urges states to confront slavery’s legacy with reparations",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Marine Le Pen's National Rally plans to \"sanction\" the wearing of the veil with a fine",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1788224867.768957
+  },
+  {
+    "title": "Nepal disaster: fake and AI images flood social media as deaths mount",
+    "raw_scores": {},
+    "final_score": 37.0,
+    "scored_at": 1788224867.768957
   }
 ]
