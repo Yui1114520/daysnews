@@ -1,125 +1,5 @@
 [
   {
-    "url_hash": "52b6e1aaa70a",
-    "title_slug": "indiawarnsnewustariffsoverrussianoilcouldimpactties",
-    "title": "India warns new US tariffs over Russian oil could impact ties",
-    "sent_at": 1789636471.320196
-  },
-  {
-    "url_hash": "576535420993",
-    "title_slug": "trumpsanctionsoncubastrandsthousandsofshippingcontainers",
-    "title": "Trump Sanctions on Cuba Strands Thousands Of Shipping Containers",
-    "sent_at": 1789636471.320196
-  },
-  {
-    "url_hash": "0cff8c04d7cb",
-    "title_slug": "israelweaponisesaiforwestbankdemolitions",
-    "title": "Israel weaponises AI for West Bank demolitions",
-    "sent_at": 1789636471.320196
-  },
-  {
-    "url_hash": "28fd1a04fa50",
-    "title_slug": "yemeniforcestargethouthisasusrulesoutdirectrole",
-    "title": "Yemeni forces target Houthis as US rules out direct role",
-    "sent_at": 1789636471.320196
-  },
-  {
-    "url_hash": "098322a670d7",
-    "title_slug": "mexicocityhasatoxicsacrificezonewherecancerissurging",
-    "title": "Mexico City Has a Toxic ‘Sacrifice Zone’ Where Cancer Is Surging",
-    "sent_at": 1789636471.320196
-  },
-  {
-    "url_hash": "36a00e49e20c",
-    "title_slug": "openaireportsmoreincidentsofmodelsactingdeceptively",
-    "title": "OpenAI reports more incidents of models acting deceptively",
-    "sent_at": 1789636471.320196
-  },
-  {
-    "url_hash": "e0fe0a7d97c9",
-    "title_slug": "onedeadaftertorrentialrainandflashfloodshitbarcelonaregion",
-    "title": "One dead after torrential rain and flash floods hit Barcelona region",
-    "sent_at": 1789636471.320196
-  },
-  {
-    "url_hash": "47473086b986",
-    "title_slug": "argentinianjudgeorderssuspensionoffalklandsoilproject",
-    "title": "Argentinian judge orders suspension of Falklands oil project",
-    "sent_at": 1789636471.320196
-  },
-  {
-    "url_hash": "24cbe1da1b76",
-    "title_slug": "assadregimeplannedusjournalistskidnapforweeksbbcfinds",
-    "title": "Assad regime planned US journalist's kidnap for weeks, BBC finds",
-    "sent_at": 1789636471.320196
-  },
-  {
-    "url_hash": "a81df6e2c8d5",
-    "title_slug": "internationalstudentsvisahoppersandbackpackerstargetedinaustraliamigrationcrackd",
-    "title": "International students, 'visa hoppers' and backpackers targeted in Australia migration crackdown",
-    "sent_at": 1789636471.320196
-  },
-  {
-    "url_hash": "6352f9f49f0f",
-    "title_slug": "whataretheworldsbiggestaicompaniesandhowmucharetheyworth",
-    "title": "What are the world’s biggest AI companies and how much are they worth?",
-    "sent_at": 1789636471.320196
-  },
-  {
-    "url_hash": "b327c7b00d33",
-    "title_slug": "trumpthreatenstoendtradewithmexicoandeuropeafterratehike",
-    "title": "Trump threatens to end trade with Mexico and Europe after rate hike",
-    "sent_at": 1789636471.320196
-  },
-  {
-    "url_hash": "76a55858e933",
-    "title_slug": "canairegulationkeepamericaaheadofchina",
-    "title": "Can AI regulation keep America ahead of China?",
-    "sent_at": 1789636471.320196
-  },
-  {
-    "url_hash": "e3e4e33ecc40",
-    "title_slug": "usbarspalestinianpresidentfromattendingungaforsecondyear",
-    "title": "US bars Palestinian president from attending UNGA for second year",
-    "sent_at": 1789636471.320196
-  },
-  {
-    "url_hash": "01511e3db98c",
-    "title_slug": "usextendsvisabanonpalestinianofficialsbeforeungeneralassembly",
-    "title": "US extends visa ban on Palestinian officials before UN General Assembly",
-    "sent_at": 1789636471.320196
-  },
-  {
-    "url_hash": "6dea2cc382e8",
-    "title_slug": "mbappandrealmadridteammatesfacebacklashoverceutamessage",
-    "title": "Mbappé and Real Madrid teammates face backlash over Ceuta message",
-    "sent_at": 1789636471.320196
-  },
-  {
-    "url_hash": "eb3563dd7887",
-    "title_slug": "taipeidonatescoastguardvesseltomanilaamidsouthchinaseatensions",
-    "title": "Taipei donates coastguard vessel to Manila amid South China Sea tensions",
-    "sent_at": 1789636471.320196
-  },
-  {
-    "url_hash": "faf15da7f533",
-    "title_slug": "lebanonemmanuelmacronwelcomesjosephaountoparisformiddleeasttalks",
-    "title": "Lebanon: Emmanuel Macron welcomes Joseph Aoun to Paris for Middle East talks",
-    "sent_at": 1789636471.320196
-  },
-  {
-    "url_hash": "cc8302aee6f8",
-    "title_slug": "southafricanpresidentramaphosatakenillafterbricssummit",
-    "title": "South African President Ramaphosa taken ill after BRICS summit",
-    "sent_at": 1789636471.320196
-  },
-  {
-    "url_hash": "e11b8ba12a3e",
-    "title_slug": "ukrainiandroneattacksparksfireatyaroslavloilrefinery",
-    "title": "Ukrainian Drone Attack Sparks Fire at Yaroslavl Oil Refinery",
-    "sent_at": 1789636471.320196
-  },
-  {
     "url_hash": "947c1a65c0d5",
     "title_slug": "fivekilledassaudiarabiaandyemenshouthistradeattacks",
     "title": "Five killed as Saudi Arabia and Yemen’s Houthis trade attacks",
@@ -838,5 +718,125 @@
     "title_slug": "googlesaysgeminiaimodelbreachedrealsystemsinsecuritytest",
     "title": "Google says Gemini AI model breached real systems in security test",
     "sent_at": 1789806846.44787
+  },
+  {
+    "url_hash": "43f60f32a48b",
+    "title_slug": "russiareportspowerfulcyberattacksonseconddayofparliamentaryvote",
+    "title": "Russia reports ‘powerful’ cyberattacks on second day of parliamentary vote",
+    "sent_at": 1789831784.084691
+  },
+  {
+    "url_hash": "7794f614b99c",
+    "title_slug": "asmallcountryshugewindfallfromthewariniran",
+    "title": "A Small Country’s Huge Windfall from the War in Iran",
+    "sent_at": 1789831784.084691
+  },
+  {
+    "url_hash": "4b3fcd2b0ead",
+    "title_slug": "syriasaysblastatmilitarysiteindeirazzorkilled11",
+    "title": "Syria says blast at military site in Deir Az Zor killed 11",
+    "sent_at": 1789831784.084691
+  },
+  {
+    "url_hash": "6d6753ca632e",
+    "title_slug": "astonvillacompoundtottenhamsmiserydespitespursendinggoaldrought",
+    "title": "Aston Villa compound Tottenham’s misery despite Spurs ending goal drought",
+    "sent_at": 1789831784.084691
+  },
+  {
+    "url_hash": "7f4a7c828a04",
+    "title_slug": "uefadefendspolicyafterrejectingirelandsrequestnottoplayisrael",
+    "title": "UEFA defends policy after rejecting Ireland’s request not to play Israel",
+    "sent_at": 1789831784.084691
+  },
+  {
+    "url_hash": "d8715ba3e602",
+    "title_slug": "millionswithoutpowerascubahitbylatestmajorblackout",
+    "title": "Millions without power as Cuba hit by latest major blackout",
+    "sent_at": 1789831784.084691
+  },
+  {
+    "url_hash": "1f8fdb693a52",
+    "title_slug": "anunaffordablecarmarkethighlightsiranscostoflivingcrisis",
+    "title": "An unaffordable car market highlights Iran’s cost-of-living crisis",
+    "sent_at": 1789831784.084691
+  },
+  {
+    "url_hash": "1b1ddca136a3",
+    "title_slug": "atleticomadridvsrealmadridlaligapreviewteamnewsprediction",
+    "title": "Atletico Madrid vs Real Madrid: La Liga – preview, team news, prediction",
+    "sent_at": 1789831784.084691
+  },
+  {
+    "url_hash": "4a449cb3cd9a",
+    "title_slug": "fearandangerinsouthafricaasbodiesofninewomenfoundwhatweknow",
+    "title": "Fear and anger in South Africa as bodies of nine women found: What we know",
+    "sent_at": 1789831784.084691
+  },
+  {
+    "url_hash": "9529d7373a78",
+    "title_slug": "taiwanflexesmilitarycapabilitiesaheadoftrumpxitalks",
+    "title": "Taiwan flexes military capabilities ahead of Trump-Xi talks",
+    "sent_at": 1789831784.084691
+  },
+  {
+    "url_hash": "e8096eb8b1ac",
+    "title_slug": "childamongthreepalestinianskilledinisraeliattacksacrossgaza",
+    "title": "Child among three Palestinians killed in Israeli attacks across Gaza",
+    "sent_at": 1789831784.084691
+  },
+  {
+    "url_hash": "caa1d3c406c5",
+    "title_slug": "nervousandskepticalgreenlandersquestionthenewdealwithtrump",
+    "title": "‘Nervous and Skeptical,’ Greenlanders Question the New Deal With Trump",
+    "sent_at": 1789831784.084691
+  },
+  {
+    "url_hash": "0610e496b440",
+    "title_slug": "whatsbehindreportsthattheisraeliarmyislowontroopsequipment",
+    "title": "What’s behind reports that the Israeli army is low on troops, equipment?",
+    "sent_at": 1789831784.084691
+  },
+  {
+    "url_hash": "5590447b503c",
+    "title_slug": "trumpssecuritydealwithgreenlandwhattoknow",
+    "title": "Trump’s Security Deal With Greenland: What to Know",
+    "sent_at": 1789831784.084691
+  },
+  {
+    "url_hash": "4aefadffff93",
+    "title_slug": "chinaisnowrwandasbiggestexportmarketnowcomesthehardpart",
+    "title": "China is now Rwanda’s biggest export market – now comes the hard part",
+    "sent_at": 1789831784.084691
+  },
+  {
+    "url_hash": "3b8aee4b3ca2",
+    "title_slug": "thousandsofmigrantsreturntobeachesinceutaafternewportfacilityrunsoutofspace",
+    "title": "Thousands of migrants return to beaches in Ceuta after new port facility runs out of space",
+    "sent_at": 1789831784.084691
+  },
+  {
+    "url_hash": "6457fe352171",
+    "title_slug": "israelnazadocumentarysparkspoliticalstorm",
+    "title": "Israel: 'NAZA' documentary sparks political storm",
+    "sent_at": 1789831784.084691
+  },
+  {
+    "url_hash": "bf58920b11d2",
+    "title_slug": "southafricancircusgivesyoungperformersanewrouteforward",
+    "title": "South African circus gives young performers a new route forward",
+    "sent_at": 1789831784.084691
+  },
+  {
+    "url_hash": "e23cf5928f04",
+    "title_slug": "ai10daysthatchangedthecourseofartificialintelligence",
+    "title": "AI: 10 days that changed the course of artificial intelligence",
+    "sent_at": 1789831784.084691
+  },
+  {
+    "url_hash": "1d628954bc66",
+    "title_slug": "withunitedrussiaselectionvictoryallbutcertainsomerussiansarestillpushingback",
+    "title": "With United Russia’s Election Victory All But Certain, Some Russians Are Still Pushing Back",
+    "sent_at": 1789831784.084691
   }
 ]
