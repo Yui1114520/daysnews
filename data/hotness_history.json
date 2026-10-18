@@ -1,365 +1,5 @@
 [
   {
-    "title": "🔴Pope Leo says will undergo surgery for early-stage lung nodule",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Trump says Ukraine needs new president who will agree to end war",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Three Indians rescued from attacked cargo ship in Black sea depart for India",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Spain: Sánchez and Feijóo launch campaigns",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Ukraine ready to halt refinery strikes if Moscow stops energy attacks, Zelensky says",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Czech PM Babiš's ANO faces strong challenge in first round of Senate election",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Trump, Zelensky clash over diesel deal as Russian strikes kill 21",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Latest news bulletin | October 11th, 2026 – Midday",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "‘Special-forces’ travel: Chinese woman wins admiration after climbing 5 famous peaks in 5 days",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "How Taiwan’s military manpower shortage is undermining its ability to fight",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Photos: Thousands detained in police crackdown on India’s youth protest",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Kenyan children learn to play chess on sets made using plastic waste",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "🔴At least 109 migrants dead, more than 100 missing after boat capsizes off Djibouti",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "India’s ‘Cockroach’ Leaders Released as New Delhi Braces for More Protests",
-    "raw_scores": {},
-    "final_score": 43.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "A Vietnam War veteran turned discarded materials into Colorado's famous Cano's Castle",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Russia’s Yandex says data centre in Vladimir shut down after drone attack",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "'Going bankrupt': Iran shopkeepers struggle as war dims demand",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Trump urges Zelensky replacement as diesel row rages",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Protesters take to the streets in Portugal over rising living costs and housing prices",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Russia’s Yandex Says Data Center in Vladimir Shut Down After Drone Attack",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Wringing Hope From the Rubble of Gaza",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "In Canada’s Arctic, a New Generation of Inuit Creatives Are Using Identity to Fuel Their Art",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "A Russian Spy’s Lone Regret: ‘I Got Caught’",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "From Abby Choi to the ‘Hello Kitty’ killing: Hong Kong’s most shocking crimes",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "A Reporter Returns to China to Find it Richer, but Also Highly Paranoid.",
-    "raw_scores": {},
-    "final_score": 43.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Why are mainland China’s tax officials suddenly so interested in my Hong Kong MPF?",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "In 2024, Glenn and Barbara Britt gave Dartmouth College $150 M, easing tuition costs for families",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "How Trump aide Natalie Harp’s family broke apart — and polarized",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Delhi sees more protests as 'cockroach' group's leaders released",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "What can Man City expect against Liverpool at Anfield on Sunday?",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Trump calls for Ukraine election, says Zelenskyy failed to end war",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Pakistan imposes emergency rule in ​province governed by Imran Khan’s party",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "If Hongkongers’ support for Legco is waning, it isn’t just lawmakers’ fault",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "UC San Diego finds genetic switch that gave butterflies richer colour vision",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "This couple's $100 million gift made Yale School of Music tuition-free",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "What the Iran war has done to the world’s energy supply, in charts",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Man arrested after 23,000 bogus customer service scam calls in over a week",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Can Saudi Arabia’s 2034 Fifa World Cup survive the Middle East’s escalating wars?",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Spain's slow response in Ceuta leaves teen migrants still living on streets",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "China’s rich coastal cities to see sea-level rise up to 20% higher than global average",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Musk vows ‘affordable’ Starlink in India as he escalates feud with Ambani",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "US bombs cargo vessel in Gulf of Oman ‘trying to run Iran blockade’",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "T’Emi Oshin: Wayne State’s first Obama-Chesky voyager scholar",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "In 1967, an Australian man built a house from discarded glass bottles; today, it is a mining museum",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Nasa-backed spacecraft to inspect dead space objects, test future repair and debris removal tech",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Four dead as Isaias continues to push across the Southeast US, bringing strong winds and heavy rain",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Egypt and Malaysia discuss political settlement to Middle East conflict",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Flash flood sweeps away buildings in Nepal",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Wild horses and donkeys dig desert wells in Arizona, supplying water to 57 vertebrate species",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Washington Supreme Court irrigation case: Farmer contests $618,000 irrigation penalties",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Spirit of Hong Kong Awards: Gaza nurse’s obstacle-laden road to becoming a professor",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Urn with Anita Mui’s ashes missing from Lantau monastery as family appeals for help",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "What to Know About the Protests in India",
-    "raw_scores": {},
-    "final_score": 43.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Teen revolt or revolution? The student protests threatening France's presidential race",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Vinicius apologises for hair-pull red card but could miss El Clasico",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "US justice department investigates TV networks over Trump pool coverage",
-    "raw_scores": {},
-    "final_score": 43.5,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Farming and solar power are competing for land. Can agrivoltaics solve the problem?",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Europe's best Christmas markets to visit in 2026, according to travellers",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "ESA director general reveals €10bn plan to get to space without NASA",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1791715036.344163
-  },
-  {
-    "title": "Latest news bulletin | October 11th, 2026 – Morning",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1791715036.344163
-  },
-  {
     "title": "Saudi Arabia Has Few Options as Houthis Aim at Heart of Its Ambitions",
     "raw_scores": {},
     "final_score": 47.5,
@@ -8962,5 +8602,437 @@
     "raw_scores": {},
     "final_score": 45.0,
     "scored_at": 1792312430.929218
+  },
+  {
+    "title": "Lithuanians take shelter, Nato jets scramble as suspected drone explodes",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Pope Leo XIV after his hospital stay: \"I feel closer to those who suffer illness\"",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Egypt’s Defense Chiefs Pledge to Support Saudi Arabia After Houthi Attacks",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Pakistan plans Moon landing by 2035, expands space cooperation with China",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "France in Shock After Protests Turn Into Riots, Damaging Buildings and Shops",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Who capped Starlink in Ukraine? Musk, Trump and Rubio give three different answers",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Pope Leo XIV thanks faithful for prayers at first appearance since surgery",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Russia: Huge flames and smoke rise over St Petersburg after drone strikes",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Russia: Huge flames and smoke rise over St Petersburg after drone strikes",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Rubio arrives in Samarkand as Washington seeks closer ties with Central Asia",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "A timeline of West Bank attacks on Palestinians and foreign officials",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Zelensky Says Trump Risks ‘Historic Mistake’ If He Backs Russia",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Check your wallet: some 2-euro coins are worth far more",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "France protests live: Macron to address nation after protests",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Why is Trump now encouraging mail-in voting?",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Hong Kong to review Peak lighting installation after outcry over felled trees",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Deadly ‘Incident’ at Canadian Forces Base Wainwright Sparks Fire",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Smashed storefronts, burned buildings: France wakes up to aftermath of violent protests",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "China urged to copy Pentagon’s hi-tech warfare project without US conflicts of interest",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "The AI promise was automation. The reality? Managing digital workers",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Cost-of-living protests: 50 detained in Milan, clashes in Turin and Bologna",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Brazilian man sells all, travels 1,200 miles to marry online girlfriend, discovers she was AI-generated",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "'Like we had a war': France left reeling after nationwide violent protests",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Why have France’s school protests become a wider political crisis?",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Search for Amelia Earhart's plane resumes after stormy weather",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Elderly Hong Kong couple die in suspected suicide pact over Parkinson’s diagnosis",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Sudan army accused of drone strike on livestock market",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "The week in pictures: Escalating protests across Europe and the tragic capsize of a migrant boat",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Hurricane Trudy threatens Mexican coast with flooding, mudslides",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "IMF annual meeting: Developing nations need greater digital connectivity",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Katie Zacharia and Mao Ning – a study in contrasts in US and China media strategies",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Florida appeals court overturns $2,675 monthly alimony after a 249-day marriage",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "'Like we had a war': France counts cost of violent protests",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Was ancient India the world’s forgotten superpower?",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Gaza families fear food shortages as Israel halts commercial shipments",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "France protests: \"There's a whole range of grievances at play\"",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Florida opens $191.8M water plant to protect the Matanzas River and conserve drinking water",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "In India, the Scion of a Political Dynasty Tries to Seize His Moment",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Paris left reeling as student-led protests turn chaotic",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "🔴Live: Trump says 'France is burning', blames 'immigration' for nationwide protests",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Cameroon's opposition MRC elects its first female president, Tiriane Noah",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Is FIFA scrapping its peace prize after awarding it to US President Trump?",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Michigan court allows Kalamazoo County to seize a family’s lakefront cottage for park expansion",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Paris residents tell Al Jazeera they’re dismayed by protest damage",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Egypt pledges support for Saudi Arabia as Houthi attacks escalate",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Meet Sgiath: The mountain rescue Labrador who has won IFAW’s 2026 Animal of the Year Award",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "In 2001, Tony Bennett and his wife opened an arts school for 250 students; how it looks 25 years later",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Graft charges at home, arrest in Qatar: Former Bangladesh Air Force chief held",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Tesla’s new Roadster uses compressed air and fans to jump and drive upside down",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Why Plato-to-Nato Western myth is being resurrected",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Businesses and shopkeepers pick up the pieces after protests in France spiral into looting",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "European diplomats attacked by Israeli settlers in West Bank",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Texas Supreme Court to decide if city can seize land for a privately run golf facility",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Ukrainian drone attack on Saint Petersburg kills one, sets refinery ablaze",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Pope Leo pledges return to duties following lung cancer surgery",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "How a hospital ship helps buoy China’s strategic mission in Africa",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Pope Leo Addresses the Faithful a Day After Leaving the Hospital",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Oil facilities hit in deadly overnight attack on St Petersburg",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Paris protests: A look at the aftermath",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Dozens of critically endangered orangutans saved from rampant wildfires in Indonesia",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Atlanta’s iconic tavern marks Georgia’s past with an eye on future as midterms approach",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Ukrainian forces strike St Petersburg and Leningrad region",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Burnt bicycles, smashed windows and looted shops: Trail of destruction across Paris",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Lyon wakes up to scenes of destruction after violent protests",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Off the Record: Trump blames Zelenskyy to cover up his own mess in a dramatic week for Ukraine",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "1 Killed, 5 Injured in Ukrainian Drone Attack on St. Petersburg, Governor Says",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "At Least 19 Dead After Stampede at Indian Religious Event",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Nigeria's Army Chief of Staff visits troops in Borno after deaths of 15 soliders",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Rubio Says Trump To Take up to 60 Days To Weigh Russia Sanctions",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Sudanese gold miners describe deadly airstrike that killed 72",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1792337302.166553
+  },
+  {
+    "title": "Israeli Settlers Attack Palestinians and European Officials in West Bank",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1792337302.166553
   }
 ]
