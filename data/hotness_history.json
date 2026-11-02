@@ -1,383 +1,5 @@
 [
   {
-    "title": "Why are Elvis Presley rightsholders suing AI company Anthropic?",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "'Democracy has won': Europe celebrates Lula's surprise victory in Brazil",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "‘Congratulations!’: World leaders hail Lula’s election victory in Brazil",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "New Jersey developer sues town for $300 million over AI data centre ban",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "EU hails Serbia’s political upheaval after student group ends Vučić’s rule",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "From metalworker to Brazil's president: Lula da Silva's rise",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Lula wins Brazil election after cutting Amazon deforestation to record low",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Flavio Bolsonaro ‘will not give up’ after Brazil election results",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "The Weeknd’s ‘Hong Kong’ captures nostalgia for bygone era, video director says",
-    "raw_scores": {},
-    "final_score": 38.0,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "California’s billionaire tax faces a precarious road from rich opposition",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Lula secures surprise win to retain Brazil presidency",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement",
-    "raw_scores": {},
-    "final_score": 43.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "A cat vanished in a 2020 crash; six years later, a microchip brought her home",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Lula wins Brazil’s presidency for a fourth time with 51.8% of the vote",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Ukrainian drone strike on Voronezh kills two as Kyiv and Moscow prepare to restart talks",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Israel elections: What's at stake for Netanyahu? Key challengers, seats needed to win &amp; more",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Aleksandar Vucic Concedes Defeat in Serbian Election",
-    "raw_scores": {},
-    "final_score": 43.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Do Palestinians in Gaza expect anything to change after Israel’s election?",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Lula's 'extraordinary victory' faces growing middle class, deeply-entrenched bolsonarismo & Big Tech",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Lula’s victory may be a turning point for Latin America",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "AI chip surge lifts South Korea to record surplus, behind only China",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Trump’s Kennedy Center row deepens as lawmaker demands nearly 200 secret text messages",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "US: Nicki Minaj endorses Trump at Michigan Republican rally",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "US: Nicki Minaj endorses Trump at Michigan Republican rally",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Can EU Inc still make business easier? Ask the Euronews AI chatbot",
-    "raw_scores": {},
-    "final_score": 36.0,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "China may well be the next big competitor for Asian migrant labour",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Israel is 'on its way become normal again', says former prime minister Ehud Olmert",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "What Hongkongers need to know about the latest changes to the MPF scheme",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "‘Fed up’ Malaysian sultan rebukes scandal-hit pilgrimage fund, demands accountability",
-    "raw_scores": {},
-    "final_score": 40.0,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Kimi Antonelli wins US Grand Prix, closes in on F1 championship",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Trump makes explicit remarks about Nicki Minaj at Michigan midterm rally",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Photos: Serbia celebrates as ruling party loses grip on power",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "'Extraordinary historical moment' in Serbian democracy, following Vučić defeat",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Uganda imposes 21-day quarantine on citizens returning from DR Congo",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Ford Foundation unveils its biggest funding shift since 2015 with $700 million in grants",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Brazil's Lula clinches re-election, Bolsonaro calls to annul vote",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Zendaya expands Hollywood Hills estate with another $2M home",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Could new US investment curbs complicate China’s biotech licensing surge?",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Chinese video AI models beat US rivals in visual quality, but lag on safeguards: HKU study",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Brazil: Thousands flood streets to celebrate Lula's election victory",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Paris welcomes first NFL game with a party a day after protests",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "In Australia, Sydney’s second airport blows some passengers off course",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Officials from Mecca pact states to hold talks in Iran amid regional tensions",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "California homeowner’s 3-year ADU permit fight revived after $1M loss claim",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Florida homeowner got foreclosure trial notice too late; appeals court reverses judgment, orders new trial",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Edinburgh rejects 212MW data centre as Scottish Ministers review appeal",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Photos: Lula supporters flood streets in celebration of historic win",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "930 evacuated, 1 injured as fire breaks out at Hong Kong waste-to-energy plant",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "'National emergency': 24 dead in Kenya bus crash near site of previous fatal accident",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Lula Wins Re-election as Bolsonaro Rejects Result",
-    "raw_scores": {},
-    "final_score": 43.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "What to Know About Brazil’s Election as Bolsonaro Faces Off With Lula",
-    "raw_scores": {},
-    "final_score": 43.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Israel’s election: The main issues in the words of the leading candidates",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Brazil: long queues and river journeys mark decisive presidential vote",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Eric Bauza, voice of Bugs Bunny and Daffy Duck, dies aged 46",
-    "raw_scores": {},
-    "final_score": 43.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Alabama father and daughter feared arson before their $500,000 home burned down",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Ebola: Uganda introduces 21-day quarantine for people entering from DRC",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Real Madrid win Clasico against Barcelona thanks to Mbappé",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Venezuelan opposition leader María Machado returns after months in exile",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "María Corina Machado Returns to Venezuela",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Mbappé, Kane and Yamal top favourites list in wide open 2026 Ballon d’Or race",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Bolsonaro refuses to recognise Lula’s victory and says he will seek to annul the election",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "Australian murderer loses bid to eat Vegemite in prison",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1793007877.132087
-  },
-  {
-    "title": "🔴 Live: Bolsonaro refuses to recognise Brazil election results",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1793007877.132087
-  },
-  {
     "title": "JD Vance lost his temper as Elon Musk, Jensen Huang extended their AI chat, reportedly used 'F' word; his team says never happened, complete fabrication",
     "raw_scores": {},
     "final_score": 38.5,
@@ -8092,5 +7714,443 @@
     "raw_scores": {},
     "final_score": 38.5,
     "scored_at": 1793582561.659825
+  },
+  {
+    "title": "Supermarket freezers in Belgium, Sweden and Luxembourg hit by suspected cyber-attack",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Hong Kong’s first national security law convict among 4 released early, sources say",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Up in the Clouds With the Pope, It’s Still Commercial",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Iran says it can reopen Hormuz in two days if US meets conditions",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Prague, Kraków and Istanbul: These are the best European cities for solo travellers",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Talks are the only way out, China tells Iran as US threat hangs over Middle East",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "French school protests resume on small scale as students return from break",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Meta says it met Hong Kong privacy watchdog over AI-enabled glasses concerns",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Apple's new CEO faces earnings test as rising chip costs cloud outlook",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "From Christmas magic to snowy escapes: 10 of Europe’s best winter travel destinations",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Limited school protests resume in some cities in France as holiday ends",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "China’s CXMT defends bet on risky new DRAM architecture to circumvent US chip curbs",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Can Americans who disagree on politics still find common ground?",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "'Consolidation of power': Bulgaria elects Iliana Iotova as first woman president",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Ryanair says it may freeze workers' pay and raise airfares",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "California accountant gets 63 months in prison after $8.2 million backyard homes fraud",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Texas farmer earns $200,000 yearly by leasing 600 acres for solar panels",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Discarded racing tyres transformed into 17-foot sculpture at Ohio park; artist Chakaia Booker unveils ‘Transit’",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Argentina courts AI data centres with no regulation and tax breaks",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Titanic passenger wrote to friend before fatal voyage, letter fetches $16,100 at auction",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Emotional reunions as residents flee Ukraine’s Oleshky during truce",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Kremlin Downplays Prospect of Resuming Gas Shipments to Europe via Ukraine",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "French school protests resume on smaller scale as holidays end",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Alarms and card machines at risk as a million UK lines yet to make digital switch",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Football: China refuses to air Real Madrid game after Mbappé comment",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Storm Triggers La Palma Blackout: power outage hits island amid heavy rain; PLATECA plan activated",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Latest news bulletin | November 2nd, 2026 – Midday",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "French school protests resume on smaller scale after holiday break",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Five arrested after South African farmer shot and tortured",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Japan launches new national agency to boost disaster response",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "UN peacekeeping mission in Western Sahara ends after 35 years",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "'Give them the hammer': Trump threatens Iran ahead of midterms",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "'A shift in the air': Can young voters turn Texas blue?",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "China excludes La Liga matches from broadcast schedule after Mbappé’s Mao remarks",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Netanyahu and Eisenkot Seek Shot to Be Israel’s Premier",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "US midterms: Could Senate candidate James Talarico turn Texas blue?",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Canadian minister stops short of endorsing EU carbon tax as energy alliance deepens",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Bolivia declares national emergency over El Niño as drought hits over 78,000 families",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Sudan files complaints against Ethiopia with UN over deadly drone spree",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Jailed PKK founder Ocalan moved to new section of Turkish island prison",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Ukraine and Russia both hit by cyberattacks on emergency apps",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Binance users withdraw $3.4 billion after record crypto heist",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "As aid situation worsens, displaced Sudanese worry about warnings of famine",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Turkey signed US-led Artemis Accords. Its moon rovers will hitch a ride with China",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Midterms: Will Trump backlash lead to Democratic landslide?",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Hong Kong police arrest man after hit-and-run at checkpoint sparks 10-hour hunt",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Beijing doubles down on Type 071 amphibious warships, signalling a Taiwan focus",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "King Charles Meets Both Joy and Criticism on Caribbean Tour",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Virginia couple's dream garden sparks dispute over backyard land",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "‘Just the beginning’ for Antonelli, F1’s prodigious, charismatic new king",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "How Hong Kong’s fintech strategy is progressing – and where growth still lags",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Halloween turns deadly across US as gun violence leaves at least 24 dead, 94 injured",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Iran proposes two-day plan to reopen Strait of Hormuz",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "South Korean lawmaker denied US visa for 1991 conviction. Three days later, he was issued A-2 visa after Marco Rubio's diplomatic intervention",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Saudi-led coalition intercepts a missile as fighting rages in Yemen’s al-Jawf",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Israel’s first ambassador presents credentials in Somaliland",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "TPLF loses popular support after fresh fighting in Ethiopia's Tigray",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Nuclear radiation in Russia, Ukraine? No, just hacked warning alerts",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "US midterms 2026: Trump calls Democratic Senate candidate Abdul El-Sayed a ‘jihadist’ at Iowa rally, hails Republican Mike Rogers as 'apple pie'",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Ukrainian Drones Hit Major Oil Transport Hub in Samara Region",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Nine killed as small jet crashes on Florida street",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "US midterms: 1 day to go – Democrats rally around El-Sayed amid attacks",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "MLB ‘spot-fixing’ trial set to begin in US court",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Indiana father moves to Virginia for new job, court upholds ex-wife's custody of son",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Uganda begins withdrawing troops from Somalia after 20 years",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Israeli right-wing activists protest possible Arab coalition",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Popular Australian children's author jailed over child exploitation offences",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Binance users withdraw $3.6bn after largest-ever crypto hack",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Senegal’s Olympic Games face cost-of-living concerns",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Spain’s El Hierro grapples with rising migrant arrivals",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "Iran killed her teenage daughter - now she is facing up to the regime",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "‘This Hour Has 22 Minutes,’ a Canadian Sketch Show, Beats American Late Night to the Punchline",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1793620833.182219
+  },
+  {
+    "title": "China’s Message to Its Rivals: You Need What We Make",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1793620833.182219
   }
 ]
