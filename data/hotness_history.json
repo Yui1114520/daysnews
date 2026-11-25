@@ -1,479 +1,5 @@
 [
   {
-    "title": "Hong Kong student arrested over alleged HK$4.2 million mortgage scams",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Zelenskyy proposes 10 more humanitarian evacuations after Oleshky",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Returning the favour, Xi personally welcomes Trump ahead of high-stakes Apec talks",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Trump arrives in China for unprecedented trilateral encounter with Xi and Putin",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Live Updates: In a Rare Gesture, Xi Greets Trump as He Lands in China",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "For the Thai prime minister, Apec in Shenzhen is almost home ground",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "The big test facing the Middle East’s emerging security autonomy",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Chinese cars shake up Ivory Coast's auto industry",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "UK inflation rises to 3.6% as petrol and diesel prices climb",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "EU-UK summit: Leaked draft reveals ambition and limits of Brexit reset",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "ICJ to rule on Rohingya genocide case: What to expect",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Nintendo employee rescued Donkey Kong art from trash; later sold for $329,400",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "'A masterpiece of the gaming industry': GTA 'most expensive' entertainment production in history",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Marco Rubio says no evidence recent tech outages in US are linked or 'nefarious'",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Mexico owns the only non-Chinese panda in the world: President has asked Xi Jinping for a mate",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Palestinians find refuge in ancient caves after Israel demolishes homes",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Pineapple pizza debate reignites after Italian chef sacked in Australia",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Woman denied medical insurance claim after breast cancer diagnosis",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Field of fire: Chinese scientists develop drone gun that can plant rice more efficiently",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "‘Felt like nothing happened’: Hongkonger lauds incision-free kidney cancer therapy",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Voyager 1 now 25.9 billion km from Earth, still active nearly 50 years after leaving our planet",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "‘Partnership buys silence’: Fears grow over EU-Rwanda deportation plans",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Iran’s army chief vows ‘more crushing’ response if US attacks again",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Saudi coalition hits 60 Houthi military sites; Taiz sees ‘fierce battles’",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Russia Asks if Netherlands Is Joining Ukraine War After Dutch Company's Missiles Used in Bridge Attack",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Democrat Mary Peltola wins US Senate race in Alaska",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Catnomics: global cat market tops €100bn, drives pet economy",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Teenaged boys increasingly targeted by 'sextortion' scammers",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Cameron Bancroft claims entire Australian team knew about ‘Sandpapergate’",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Boris Grebenshchikov, a Russian Rock Musician With a ‘Need to Rebel’",
-    "raw_scores": {},
-    "final_score": 43.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Malaysia’s Pardons Board minutes expose legal rift over Najib’s house arrest",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Who would gain from carving up Pakistan’s provinces?",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Trump arrives in China ahead of trilateral summit with Putin and Xi",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "EU proposes new US$49 billion Ukraine loan for 2027",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "AI finds security flaw in Java, world’s third-largest programming language",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "North Carolina father sues HOA over $70,000 Christmas display with 60,000 lights",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Rubio says 'zero' information that US tech outages are linked",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "How low tech exposure turned India into a haven during Asia’s chip sell-off",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "US urges respect of ceasefire in Western Sahara as UN peacekeepers leave",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Ring Returned After 47 Years: Detectorist reunites Benson with brother; school names him honorary member",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Trump arrives in China ahead of trilateral summit with Xi, Putin",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Morris Brown alumni donate $700,000 to restore historic 1882 campus landmark",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Parking meter operator to pay HK$1.3 million over citywide outage",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Carney and Trump to Hold Unscheduled Trade Meeting at Asia Summit",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Israeli parliament elects speaker backed by Netanyahu opponents",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "India lodges complaint against Palestinian footballer after under-17 match",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Tim Hortons accused of sharing user data with firm linked to Israeli army",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Trump is trying to put the Iran war behind him, but it’s not over",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Ukraine Sidesteps Starlink Throttling With Crimea Bridge Strike",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "'Failures, incompetence, broken promises': Deutsche Bank exposed in major leak",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Russia, China look to deepen ties at APEC as Trump arrives",
-    "raw_scores": {},
-    "final_score": 45.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Indiana father on disability ordered to sell $270,000 home; court overturns college fee order",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Woman reclaimed her repossessed car, but police treated it as stolen",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Three women stranded by US flight shutdown buy $48,000 Ford Bronco and drive 27 hours home",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Putin Hails Russia’s Economic Resilience and Touts Closer Ties With China at APEC",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Turkish pro-opposition broadcaster taken off air after police raid",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Greenpeace activists dumped boulders into the sea, which hindered with a £12 billion project",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Xi and Putin meet at APEC summit ahead of trilateral talks with Trump",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Trump arrives in Shenzhen, China, where Xi Jinping’s family history runs deep",
-    "raw_scores": {},
-    "final_score": 41.0,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Why has an NYT report on Iran’s dams ignited fierce pushback?",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Texas appeals court modifies divorce settlement, cuts ex-wife's $92,426 award to $18,369",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Democrats win Alaska Senate race two weeks after midterms counting began",
-    "raw_scores": {},
-    "final_score": 43.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "What to Know About the Myanmar Genocide Case at the World Court",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Voters Are Punishing Autocrats. But Many Still Embrace Them. Why?",
-    "raw_scores": {},
-    "final_score": 43.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Russia Targets Political Prisoner Donors With ‘Extremism’ Charges",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Archaeologists uncover medieval cathedral floor in northern Sudan",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Ukrainian Drones Target Krasnodar Region Refineries",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Mozambique opposition leader charged with terrorism over 2024 unrest",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Haitians demonstrate in support of El Salvador's Bukele and anti-gang troops",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Tracking China’s Intensifying War of Words Against Japan",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Xi and Putin Blast Western 'Protectionism,' Sanctions as Trump Lands in China",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Philippines police ask prosecutors to charge Thomas Markle over child sex abuse material",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Rio Tinto to Pay $250 Million to Address Mine’s Environmental Damage",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Israeli parliament elects Eisenkot ally as new Knesset speaker",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "19 Killed in Military Transport Plane Crash in Siberia",
-    "raw_scores": {},
-    "final_score": 38.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Five foreign nationals charged under South Africa's mercenary law appear in court",
-    "raw_scores": {},
-    "final_score": 42.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Can a US-backed mineral highway bring peace and prosperity to DR Congo?",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "These Villagers Wonder if They’re on the Front Line of Russia’s Shadow War",
-    "raw_scores": {},
-    "final_score": 47.5,
-    "scored_at": 1795005639.36636
-  },
-  {
-    "title": "Rubio says US not 'under systemic attack' after series of tech outages",
-    "raw_scores": {},
-    "final_score": 43.5,
-    "scored_at": 1795005639.36636
-  },
-  {
     "title": "Egypt court suspends trial of Mada Masr editor Lina Attalah",
     "raw_scores": {},
     "final_score": 42.5,
@@ -9340,5 +8866,515 @@
     "raw_scores": {},
     "final_score": 41.0,
     "scored_at": 1795582155.548575
+  },
+  {
+    "title": "How an Iranian Ally Gained the Upper Hand in Yemen’s War",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Visa scam: Indian-origin kingpin Chandrakant Patel sentenced to 10 years in prison; will be deported after jail sentence",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Christmas decorations found in washed up container from ship hit by drones off Bulgaria’s Black Sea coast",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "North Korea Kicks Out Swiss Diplomats in Spat Linked to Ukraine War",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Defending Aden, Yemen’s Holdout Against the Houthis",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Could potential US tariffs put the US-China trade truce at risk?",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Sons sue auction house after stepbrother allegedly sold father's $400,000 gold coins",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "US says Latin America is too dangerous – unless you are seeking asylum",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Badly welded rail and sinking ground likely caused deadly Spanish train crash, experts say",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Mexico Investigates Possible Cartel Links of Prosecutor Who Aided C.I.A.",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "China calls on Netherlands to help safeguard industrial and supply chains",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Who is Kilmar Abrego Garcia? Salvadoran man whose deportation sparked legal battle moves to Spain",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Florida drive-thru worker retires after 37 years, receives a year's salary from final-day sales",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "DIY builder powers home with 1,000 recycled laptop batteries and solar energy",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Craiova, Riga, Sofia: These are the best Christmas markets in Europe for 2027, according to travellers",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "US army to detonate stockpile of unstable bomb-making chemicals in Iowa",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "The forgotten victims of femicide: Children orphaned by violence in Italy",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "7-year-old girl writes to Trump from immigration detention, seeks release",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Montenegro will become EU’s next member by 2028, says President",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "19-year-old hiker stranded on Texas cliff as strong winds delay Black Hawk rescue",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Murmansk Governor Placed in Pre-Trial Detention Until Late January",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Haftar visits Ankara as Erdoğan prepares first Libya trip in 15 years",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Puerto Rico's Jennifer Barreto becomes first married woman to win Miss Universe",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "‘Second home’: Why Israel is celebrating Jensen Huang’s return to Nvidia",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Solomon Islands signs security deal with Australia",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Greek tourism revenues are up 9.7%, generating almost €22bn in nine months",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "A new era of pragmatism? China and Britain look for ways to get along",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "War Crimes Probe: Amnesty seeks inquiry; 14 civilians died in Tigray",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Israeli MPs advance bill for inquiry into security failings that led to October 7 Hamas attack",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Producer and guitarist Ginton on jazz, remixing big hits and collaborating on a track for Drake",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Honduran national accused of killing Chinese woman in NYC was released from custody 7 times in 2026, the last was a day before Chinatown murder",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Europe is embracing digital health, but do patients actually benefit?",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Trump to meet Abdul El-Sayed: Will he agree to a renamed Medicare-for-all?",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Trinity Rodman out of USWNT’s World Cup qualifier due to shoulder injury",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Bayern Munich’s Musiala checked for neurological symptoms in April 2025",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Delayed train? You can now request your connection wait for you in Czechia",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "5 popular Hong Kong schools allowed to add extra Form One class next year",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "MEPs warn Costa: no approval without a bigger EU budget",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "The rising cost of Thanksgiving",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Catalan separatist Puigdemont to return to Spain on December 12",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Veteran Nigerian Nollywood actor Pete Edochie dies aged 79",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Bangladesh garment workers protest over new wages",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Russia's own figures show it has lost nearly 500,000 people in Ukraine war",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Iran warns of destructive response if key facilities are attacked",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "South Africa's Ramaphosa wins court battle over impeachment threat",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Russian strikes on Ukraine cause power outages in five regions",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Bangladesh garment workers win 36% minimum wage rise after protests",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Doctor accused of indecent examination deviated from usual practice, hearing told",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "As Taiwan’s local elections loom, voters want an end to ‘constant confrontation’",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Russia’s Regions Roll Out Bans on Vape Sales",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Overnight RSF drone attacks kill 19 in Sudan",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "International Ice Hockey Federation Appeals CAS Ruling to Reinstate Russia",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "‘A symbol of hope’: Pakistan celebrates as astronaut enters orbit",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "MacKenzie Scott donates another $8 million while her fortune exceeds $27 billion",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Colombian police storm supermarket to free 20 held hostage for 17 hours",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Denmark bans headscarves for prosecutors as religious dress debate intensifies",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Hong Kong audit watchdog urges faster recovery of HK$131m defaulted student loans",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Falklands, growing interest in adjacent areas to Navitas Sea Lion",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Falklands at JMC: UK steps up security support for British Overseas Territories",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Argentina interested in purchasing three Italian made built light frigates",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Falklands, outbreak of avian influenza among Gentoo Penguins",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "British heritage in Chile, 1858 Catedral de San Pablo, refurbished in city-port Valparaiso",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Violence against women: Its many forms and the paths to justice",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Falklands commissions independent review (and survey) of the Tax system",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Zimbabwe court issues arrest warrant for Robert Mugabe’s son",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Yemen's Houthis claim attacks on Riyadh financial district, Saudi refinery",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "2 Men Charged After Break-In at Prince William and Kate’s Country Home",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Cyberattack exposes unclassified information from CIA system, US media reports",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "🔴 Surprise Eurostar strike cancels London, Paris and Brussels trains",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "U.S. Shelves Plans for Business Deals With Russia to End Ukraine War – FT",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Kilmar Abrego García arrives in Spain, ending deportation battle with U.S.",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Ex-French president and wife to face trial in witness tampering case",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Island Paradise of Mauritius Has Sun, Beaches and Too Many Dogs",
+    "raw_scores": {},
+    "final_score": 47.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Eisenkot, pushing to oust Netanyahu, sharpens warnings over new Iran strikes",
+    "raw_scores": {},
+    "final_score": 45.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "In backing Nvidia’s Huang, Trump deals his China hawks a setback",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Top Nvidia chips still for sale in China, despite U.S. ban",
+    "raw_scores": {},
+    "final_score": 41.0,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "A day without news: Media outlets in CAR go dark to protest 'intimidation'",
+    "raw_scores": {},
+    "final_score": 38.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "One Killed in Samara Region as Ukraine Strikes Oil Refinery",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "The house that fell on its head: Crazy sculptures trick the eye in Marrakesh",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Colombia’s Leader Blames ‘Terrorist Attack’ for Power Outages",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Two children among six dead after plane crash off Mississippi coast",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "South African court convicts Zimbabwean man of trying to join Russian war",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Morocco to challenge ruling reinstating Senegal as AFCON champions",
+    "raw_scores": {},
+    "final_score": 42.5,
+    "scored_at": 1795614851.774663
+  },
+  {
+    "title": "Close-up images to be revealed of asteroid deliberately hit to test ability to protect Earth",
+    "raw_scores": {},
+    "final_score": 43.5,
+    "scored_at": 1795614851.774663
   }
 ]
